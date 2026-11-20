@@ -1,0 +1,77 @@
+Mars Pathfinder  NASA Science
+Page 1
+ MARS PATHFINDER
+ NASA Mars Exploration Mission  1996–1997
+Mission overview
+Mars Pathfinder was designed as a technology demonstration to deliver an instrumented lander and a free-ranging
+robotic rover to the surface of Mars. The lander and its rover, Sojourner, carried instruments to study the Martian
+atmosphere, climate, geology, rocks, and soil while testing new landing and surface-operation technologies.
+Key facts
+Launch
+December 4, 1996 (UTC)
+Launch location
+Cape Canaveral Air Force Station, Florida, USA
+Rocket
+Delta II 7925
+Mars landing
+July 4, 1997
+Landing site
+Ares Vallis, Mars
+End of mission
+September 27, 1997
+Rover
+Sojourner  23 pounds (10.6 kilograms)
+Mission results
+Mars Pathfinder returned about 2.3 billion bits of information before its final data transmission on September 27,
+1997. It sent more than 16,500 lander images and 550 rover images, completed more than 15 chemical analyses of
+rocks and soil, and collected extensive wind and weather data. Findings suggested Mars may once have been
+warmer and wetter, with liquid water at the surface.
+Airbag landing
+After entering the Martian atmosphere, a parachute slowed Pathfinder's descent. A large airbag system cushioned
+the impact—the first use of this landing technique on Mars.
+The airbag-enclosed lander struck the surface at about 31 mph (14 meters per second). The system measured
+about 19 feet (5.8 meters) in diameter. Pathfinder bounced about 15 times, reaching heights of up to 50 feet (15
+meters), before coming to rest roughly two and a half minutes later, about six-tenths of a mile (1 kilometer) from the
+initial impact point.
+The Sojourner rover
+The lander was named the Carl Sagan Memorial Station in honor of astronomer Carl Sagan. It deployed the rover
+Sojourner, named after American civil-rights activist Sojourner Truth. Late on July 5, 1997 (sol 2, the second Martian
+day), Sojourner rose to its full height of about 1 foot (30 centimeters) and rolled down the lander's rear ramp, which
+was inclined at 20 degrees.
+Landing site: Ares Vallis
+Ares Vallis is an ancient floodplain in the northern hemisphere of Mars. Scientists selected it because it was
+considered relatively safe for landing and contained a wide variety of rocks possibly deposited by a catastrophic
+flood. Evidence suggested that a tremendous volume of water flowed through the region early in Mars' history.
+Mars Pathfinder science instruments
+Mars Pathfinder  NASA Science
+Page 2
+Instrument
+Purpose
+Alpha Proton X-ray Spectrometer
+Determined the elemental composition of rocks and soils.
+Three cameras
+Imaged surrounding terrain for geological studies and documented
+Pathfinder's technologies and operating environment.
+Atmospheric Structure Instrument /
+Meteorology Package
+Measured the atmosphere during descent and collected meteorological
+measurements at the lander.
+Mars Pathfinder science highlights
+ Evidence of ancient water: Rounded pebbles and cobbles suggested conglomerate rocks formed by flowing
+water, supporting a warmer past when liquid water could remain stable.
+ Mars' interior: Radio tracking helped measure Mars' location and pole of rotation. Results suggested a metallic
+core radius greater than 800 miles (1,300 kilometers) but less than roughly 1,250 miles (2,000 kilometers).
+ Magnetic dust: Airborne dust was magnetic. Its properties suggested the mineral could be maghemite, a strongly
+magnetic form of iron oxide.
+ Dust devils: Temperature, wind, and pressure sensors measured dust devils. The observations suggested these
+gusts help mix dust into the atmosphere.
+ Water-ice clouds: Early-morning water-ice clouds were observed in the lower atmosphere.
+ Daily temperature changes: Abrupt morning temperature fluctuations suggested the surface warms the
+atmosphere, with heat carried upward in small swirling air currents.
+360-degree landing-site panorama
+NASA's Pathfinder landing-site panorama features the lander, Sojourner rover, and important science targets. The
+supplied source notes that browser support for 360-degree images and videos may vary. This PDF summarizes the
+panorama description; it does not include an interactive 360-degree viewer.
+Source note
+Prepared from the Mars Pathfinder mission information supplied in the user's message and attributed there to NASA Science.
+Repeated Sojourner rover text has been consolidated.

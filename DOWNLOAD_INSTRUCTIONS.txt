@@ -1,0 +1,26 @@
+COSMIC TALES - which ZIP files to download and where they go
+=============================================================
+
+Option A - ONE download (easiest)
+  cosmic-tales-complete.zip    the whole project
+  -> Extract it. You get a folder called "cosmic tales". Done.
+
+Option B - SEPARATE downloads (smaller files)
+  1. cosmic-tales-source-code.zip   code, config, README, docs, data (src/, scripts/, data/, data-raw/, docs/, public/data/)
+  2. cosmic-tales-images.zip        rover, planet, gallery and timeline photos  -> cosmic tales/public/images/
+  3. cosmic-tales-3d-models.zip     planet, lander and rover 3D models          -> cosmic tales/public/models/
+  4. cosmic-tales-extra-assets.zip  narration voice clips                        -> cosmic tales/public/audio/
+  -> Download ALL FOUR and extract them into the SAME folder (for example your Desktop).
+     Every ZIP already contains the "cosmic tales" folder with the right sub-folders inside,
+     so they merge into one complete "cosmic tales" folder by themselves.
+     (Windows: right-click each ZIP -> Extract All... -> choose the same destination, e.g. Desktop.
+      macOS: double-click each ZIP in the same folder; if a second "cosmic tales 2" folder appears,
+      move its contents into "cosmic tales".)
+
+Check: "cosmic tales" must contain package.json, src/, public/images/, public/models/ and public/audio/.
+
+Then (needs Node.js 18.18+ from https://nodejs.org):
+    cd "cosmic tales"
+    npm install
+    npm run dev          -> http://localhost:8000
+Publishing to the web (GitHub + Vercel/Netlify): see README.md, section "Publishing the app".

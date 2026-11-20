@@ -1,0 +1,67 @@
+Surveyor 3  NASA lunar exploration
+Page 1
+ SURVEYOR 3
+ NASA Lunar Exploration Mission  1967
+What was Surveyor 3?
+NASA’s Surveyor 3 was the second spacecraft in the Surveyor series to make a soft landing on the Moon. It
+tested the lunar surface and helped scientists determine that the ground was strong enough to support the weight
+of an Apollo Lunar Module.
+Mission at a glance
+Nation
+United States of America (USA)
+Objective
+Lunar soft-landing
+Spacecraft
+Surveyor-C
+Spacecraft mass
+2,200 pounds (997.9 kilograms)
+Mission design and management
+NASA / Jet Propulsion Laboratory (JPL)
+Launch vehicle
+Atlas Centaur (AC-12 / Atlas D No. 292 / Centaur D)
+Launch date and time
+April 17, 1967  07:05:01 UT
+Launch site
+Cape Canaveral, Florida  Launch Complex 36B
+Scientific instruments
+TV camera; surface sampler
+Key dates
+April 17, 1967
+Launch
+April 20, 1967
+Landed on the Moon
+May 4, 1967
+Last contact with the spacecraft
+In depth: the mission
+Surveyor 3 was the third engineering flight in the Surveyor series. For the first time, a Surveyor carried a
+surface-sampling instrument that could reach up to 5 feet (1.5 meters) from the lander and dig as deep as 7
+inches (18 centimeters).
+Unlike earlier Surveyor missions, Surveyor 3 began its journey from an Earth parking orbit. The Centaur upper
+stage then fired its engine to send the spacecraft toward the Moon.
+During descent, highly reflective rocks confused the lander’s descent radar. The main engine did not shut off at
+the intended moment, at an altitude of about 14 feet (4.3 meters). Surveyor 3 bounced twice: first to about 33 feet
+(10 meters), then to about 10 feet (3 meters). It finally settled into a soft landing at 00:04:17 UT on April 20, 1967,
+in the southeastern region of Oceanus Procellarum, at 3° south latitude and 23.41° west longitude.
+Less than an hour after landing, the spacecraft began transmitting images of its surroundings. Over the mission, it
+sent 6,326 television pictures.
+The surface sampler was used to dig trenches, test how firmly the soil could support a load, and move lunar
+material in view of the television camera. Commands from Earth directed the probe to dig four trenches, perform
+four bearing tests, and conduct thirteen impact tests.
+Surveyor 3  NASA lunar exploration
+Page 2
+The experiments indicated that lunar soil had a consistency similar to wet sand. Its bearing strength was about 10
+pounds per square inch (0.7 kilograms per square centimeter, or 98 kilopascals). Scientists concluded that the
+surface could support an Apollo Lunar Module.
+The television camera
+The camera used two lenses with focal lengths of 25 mm and 100 mm. It was mounted beneath a mirror that
+could move horizontally and vertically. A single 200-line image took about 20 seconds to transmit. The system
+could also produce 600-line images using digital picture transmission.
+Apollo 12 visits Surveyor 3
+More than three years later, on November 18, 1969, Apollo 12 astronauts Charles Conrad Jr. and Alan L. Bean
+landed the Intrepid Lunar Module about 197 yards (180 meters) from the inactive Surveyor 3 spacecraft. During
+their second moonwalk on November 19, the astronauts visited the lander and brought back several parts,
+including the soil scoop and camera system. Scientists studied these components to learn how nearly two and a
+half years of exposure to the lunar environment had affected them.
+Source
+Siddiqi, Asif A. Beyond Earth: A Chronicle of Deep Space Exploration, 1958–2016. NASA History Program Office, 2018.
+Mission information adapted from the text supplied by the user.

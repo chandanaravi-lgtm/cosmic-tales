@@ -1,0 +1,2340 @@
+{
+  "$comment": "Curated, kid-friendly data. EVERY fact has `src` (file id in data-raw/sources) + `quote`/`quotes` (verbatim snippet). `npm run data` verifies the quotes and fails if one is not in the source. Missing facts are null -> shown as 'Data not available'. See README 'How to add a new machine'.",
+  "sources": {
+    "surveyor-3": {
+      "title": "Surveyor 3 – NASA Science",
+      "file": "data-raw/sources/surveyor-3.pdf"
+    },
+    "apollo-11-lm": {
+      "title": "NSSDCA – Apollo 11 Lunar Module / EASEP",
+      "file": "data-raw/sources/apollo-11-lm.xml"
+    },
+    "apollo-12-lm": {
+      "title": "NSSDCA – Apollo 12 Lunar Module / ALSEP",
+      "file": "data-raw/sources/apollo-12-lm.xml"
+    },
+    "apollo-15-lm": {
+      "title": "NSSDCA – Apollo 15 Lunar Module / ALSEP",
+      "file": "data-raw/sources/apollo-15-lm.xml"
+    },
+    "viking-1": {
+      "title": "Viking 1 – NASA Science",
+      "file": "data-raw/sources/viking-1.pdf"
+    },
+    "mars-pathfinder": {
+      "title": "Mars Pathfinder – NASA Science",
+      "file": "data-raw/sources/mars-pathfinder.pdf"
+    },
+    "near-shoemaker": {
+      "title": "NEAR Shoemaker – NASA Science",
+      "file": "data-raw/sources/near-shoemaker.pdf"
+    },
+    "kepler-k2": {
+      "title": "Kepler / K2 – NASA Science",
+      "file": "data-raw/sources/kepler-k2.pdf"
+    }
+  },
+  "machines": [
+    {
+      "id": "surveyor-3",
+      "name": "Surveyor 3",
+      "aliases": [
+        "Surveyor-C"
+      ],
+      "kind": "Robot lander",
+      "body": "moon",
+      "model": null,
+      "markerShape": "lander",
+      "launchDate": {
+        "value": "17 April 1967",
+        "iso": "1967-04-17",
+        "src": "surveyor-3",
+        "quote": "Launch date and time April 17, 1967 07:05:01 UT"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral, Florida (Launch Complex 36B)",
+        "src": "surveyor-3",
+        "quote": "Launch site Cape Canaveral, Florida Launch Complex 36B"
+      },
+      "launchVehicle": {
+        "value": "Atlas Centaur",
+        "src": "surveyor-3",
+        "quote": "Launch vehicle Atlas Centaur"
+      },
+      "purpose": {
+        "value": "Soft-land on the Moon and test its soil",
+        "src": "surveyor-3",
+        "quote": "It tested the lunar surface and helped scientists determine that the ground was strong enough to support the weight of an Apollo Lunar Module"
+      },
+      "destination": {
+        "value": "The Moon · Oceanus Procellarum",
+        "src": "surveyor-3",
+        "quote": "in the southeastern region of Oceanus Procellarum"
+      },
+      "abandoned": {
+        "value": "1967",
+        "note": "last contact",
+        "status": "ended",
+        "src": "surveyor-3",
+        "quote": "May 4, 1967 Last contact with the spacecraft"
+      },
+      "location": {
+        "lat": -3,
+        "lon": -23.41,
+        "name": "Oceanus Procellarum",
+        "src": "surveyor-3",
+        "quote": "at 3° south latitude and 23.41° west longitude"
+      },
+      "images": [
+        {
+          "id": "conrad",
+          "kind": "photo",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/news/image/conrad_19990709_c.jpg",
+          "alt": "Apollo 12 astronaut Pete Conrad standing next to the Surveyor 3 spacecraft",
+          "caption": "Apollo 12 astronaut Pete Conrad standing next to the Surveyor 3 spacecraft.",
+          "credit": "NASA / NSSDCA",
+          "src": "apollo-12-lm",
+          "quote": "Apollo 12 astronaut Pete Conrad standing next to the Surveyor 3 spacecraft"
+        },
+        {
+          "id": "thumb",
+          "kind": "photo",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/a12surveyor3.gif",
+          "alt": "Surveyor 3 on the Moon",
+          "caption": "Surveyor 3 (NSSDCA thumbnail).",
+          "credit": "NASA / NSSDCA",
+          "src": "apollo-12-lm"
+        }
+      ],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1967-04-17",
+            "label": "17 Apr 1967"
+          },
+          "title": "Blast off!",
+          "text": "Surveyor 3 launched on an Atlas Centaur rocket. For the first time, a Surveyor started from a “parking orbit” around Earth before its rocket stage fired it toward the Moon.",
+          "details": [
+            [
+              "Time",
+              "07:05:01 UT"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral, Launch Complex 36B"
+            ],
+            [
+              "Rocket",
+              "Atlas Centaur"
+            ],
+            [
+              "Mass",
+              "997.9 kg"
+            ]
+          ],
+          "src": "surveyor-3",
+          "quotes": [
+            "Unlike earlier Surveyor missions, Surveyor 3 began its journey from an Earth parking orbit",
+            "The Centaur upper stage then fired its engine to send the spacecraft toward the Moon",
+            "2,200 pounds (997.9 kilograms)"
+          ]
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "1967-04-20",
+            "label": "20 Apr 1967"
+          },
+          "title": "A bouncy landing",
+          "text": "Shiny rocks confused the lander’s radar, so the engine did not switch off on time. Surveyor 3 bounced twice — first up to about 10 metres — before settling into a soft landing.",
+          "details": [
+            [
+              "Landed",
+              "00:04:17 UT"
+            ],
+            [
+              "Where",
+              "Oceanus Procellarum"
+            ],
+            [
+              "Position",
+              "3° S, 23.41° W"
+            ],
+            [
+              "Bounces",
+              "2 (about 10 m, then 3 m)"
+            ]
+          ],
+          "src": "surveyor-3",
+          "quotes": [
+            "highly reflective rocks confused the lander's descent radar",
+            "Surveyor 3 bounced twice: first to about 33 feet (10 meters), then to about 10 feet (3 meters)",
+            "settled into a soft landing at 00:04:17 UT on April 20, 1967"
+          ]
+        },
+        {
+          "id": "digging",
+          "type": "discovery",
+          "date": {
+            "iso": null,
+            "label": "Apr–May 1967"
+          },
+          "title": "Digging in moon dirt",
+          "text": "Surveyor 3 was the first Surveyor with a scoop. It dug trenches and pushed on the ground. The soil was like wet sand — strong enough to hold an Apollo Lunar Module!",
+          "details": [
+            [
+              "Trenches dug",
+              "4"
+            ],
+            [
+              "Bearing tests",
+              "4"
+            ],
+            [
+              "Impact tests",
+              "13"
+            ],
+            [
+              "TV pictures sent",
+              "6,326"
+            ]
+          ],
+          "src": "surveyor-3",
+          "quotes": [
+            "For the first time, a Surveyor carried a surface-sampling instrument",
+            "dig four trenches, perform four bearing tests, and conduct thirteen impact tests",
+            "lunar soil had a consistency similar to wet sand",
+            "Scientists concluded that the surface could support an Apollo Lunar Module",
+            "it sent 6,326 television pictures"
+          ]
+        },
+        {
+          "id": "last-contact",
+          "type": "lost-contact",
+          "date": {
+            "iso": "1967-05-04",
+            "label": "4 May 1967"
+          },
+          "title": "Last message home",
+          "text": "Earth heard from Surveyor 3 for the last time. The silent lander stayed where it was on the Moon.",
+          "details": [
+            [
+              "Last contact",
+              "4 May 1967"
+            ]
+          ],
+          "src": "surveyor-3",
+          "quote": "May 4, 1967 Last contact with the spacecraft"
+        },
+        {
+          "id": "apollo-12-visit",
+          "type": "milestone",
+          "date": {
+            "iso": "1969-11-19",
+            "label": "19 Nov 1969"
+          },
+          "title": "Astronauts come to visit!",
+          "text": "More than three years later, Apollo 12 landed about 180 metres away. On their second moonwalk, astronauts Charles Conrad Jr. and Alan L. Bean walked over and took parts home — including the scoop and the camera.",
+          "details": [
+            [
+              "Visitors",
+              "Charles Conrad Jr. & Alan L. Bean"
+            ],
+            [
+              "Their lander",
+              "Intrepid"
+            ],
+            [
+              "Distance",
+              "about 180 m"
+            ],
+            [
+              "Brought home",
+              "soil scoop, camera system, more"
+            ]
+          ],
+          "image": "conrad",
+          "src": "surveyor-3",
+          "quotes": [
+            "landed the Intrepid Lunar Module about 197 yards (180 meters) from the inactive Surveyor 3 spacecraft",
+            "During their second moonwalk on November 19, the astronauts visited the lander and brought back several parts, including the soil scoop and camera system"
+          ]
+        },
+        {
+          "id": "parts-studied",
+          "type": "discovery",
+          "date": {
+            "iso": null,
+            "label": "After Apollo 12"
+          },
+          "title": "Space-weathered parts",
+          "text": "Back on Earth, scientists studied the returned parts to learn how nearly two and a half years on the Moon had changed them.",
+          "details": [
+            [
+              "Time on the Moon",
+              "about 2.5 years"
+            ]
+          ],
+          "src": "surveyor-3",
+          "quote": "Scientists studied these components to learn how nearly two and a half years of exposure to the lunar environment had affected them"
+        }
+      ],
+      "dataNotes": [
+        "Conflict: the Surveyor 3 PDF says Apollo 12 landed on November 18, 1969 and visited on November 19; the NSSDCA Apollo 12 page gives 19 Nov 1969 (landing, UT) and 20 Nov 1969 (second moonwalk, UT). The gap is a time-zone difference (EST vs UT). Surveyor 3’s timeline follows the Surveyor 3 PDF; Apollo 12’s timeline follows NSSDCA."
+      ]
+    },
+    {
+      "id": "apollo-11-lm",
+      "name": "Apollo 11 Lunar Module “Eagle”",
+      "shortName": "Apollo 11 Eagle",
+      "aliases": [
+        "Eagle",
+        "LM-5",
+        "Apollo 11 LM/EASEP",
+        "EASEP",
+        "Tranquility Base"
+      ],
+      "kind": "Crewed lander + science package",
+      "body": "moon",
+      "model": "apollo_lm",
+      "markerShape": "lander",
+      "launchDate": {
+        "value": "16 July 1969",
+        "iso": "1969-07-16",
+        "src": "apollo-11-lm",
+        "quote": "Launch Date: 1969-07-16"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral, United States",
+        "src": "apollo-11-lm",
+        "quote": "Launch Site: Cape Canaveral, United States"
+      },
+      "launchVehicle": {
+        "value": "Saturn 5",
+        "src": "apollo-11-lm",
+        "quote": "Launch Vehicle: Saturn 5"
+      },
+      "purpose": {
+        "value": "Land the first astronauts on the Moon",
+        "src": "apollo-11-lm",
+        "quote": "was the first crewed vehicle to land on the Moon"
+      },
+      "destination": {
+        "value": "The Moon · Sea of Tranquility",
+        "src": "apollo-11-lm",
+        "quote": "in the region known as Mare Tranquilitatis (the Sea of Tranquility)"
+      },
+      "abandoned": {
+        "value": "1969",
+        "note": "descent stage left on the Moon",
+        "status": "ended",
+        "src": "apollo-11-lm",
+        "quotes": [
+          "The descent stage served as a platform for launching the ascent stage and was left behind on the Moon",
+          "The LM lifted off from the Moon at 17:54:01 UT on 21 July"
+        ]
+      },
+      "location": {
+        "lat": 0.67416,
+        "lon": 23.47314,
+        "name": "Tranquility Base",
+        "src": "apollo-11-lm",
+        "quote": "at 0.67416 degrees N latitude, 23.47314 degrees E longitude"
+      },
+      "images": [
+        {
+          "id": "lm-photo",
+          "kind": "photo",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/ap11_lm_as11_40_5927.jpg",
+          "thumb": "https://nssdc.gsfc.nasa.gov/planetary/thumbnail/ap11_lm_as11_40_5927.gif",
+          "alt": "The Apollo 11 Lunar Module Eagle on the Moon",
+          "caption": "Image of the Apollo 11 Lunar Module / EASEP spacecraft.",
+          "credit": "NASA / NSSDCA",
+          "src": "apollo-11-lm"
+        },
+        {
+          "id": "lm-diagram",
+          "kind": "diagram",
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+          "alt": "Labelled diagram of the Apollo Lunar Module",
+          "caption": "Diagram of the Apollo Lunar Module. (Courtesy of NASA History Office.)",
+          "credit": "NASA History Office",
+          "src": "apollo-11-lm",
+          "quote": "Diagram of the Apollo Lunar Module. (Courtesy of NASA History Office.)"
+        }
+      ],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1969-07-16",
+            "label": "16 Jul 1969"
+          },
+          "title": "Riding a Saturn 5",
+          "text": "Eagle left Earth tucked on top of a giant Saturn 5 rocket from Cape Canaveral. Fully fuelled, the two-stage lander weighed 15,103 kg.",
+          "details": [
+            [
+              "Rocket",
+              "Saturn 5"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral, United States"
+            ],
+            [
+              "Mass with fuel",
+              "15,103 kg"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-11-lm",
+          "quotes": [
+            "Launch Date: 1969-07-16",
+            "Launch Vehicle: Saturn 5",
+            "Mass: 15103 kg"
+          ]
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "1969-07-20",
+            "label": "20 Jul 1969"
+          },
+          "title": "“The Eagle has landed”",
+          "text": "Eagle touched down in the Sea of Tranquility. Neil Armstrong radioed: “Houston, Tranquility Base here — the Eagle has landed.”",
+          "details": [
+            [
+              "Landed",
+              "20:17:40 UT"
+            ],
+            [
+              "Crew",
+              "Neil A. Armstrong & Edwin E. “Buzz” Aldrin, Jr."
+            ],
+            [
+              "Where",
+              "Sea of Tranquility"
+            ],
+            [
+              "Position",
+              "0.674° N, 23.473° E"
+            ]
+          ],
+          "image": "lm-photo",
+          "src": "apollo-11-lm",
+          "quotes": [
+            "The LM landed at 20:17:40 UT (4:17:40 p.m. EDT) on 20 July 1969",
+            "Houston, Tranquility Base here - the Eagle has landed"
+          ]
+        },
+        {
+          "id": "first-step",
+          "type": "milestone",
+          "date": {
+            "iso": "1969-07-21",
+            "label": "21 Jul 1969"
+          },
+          "title": "One small step",
+          "text": "Armstrong became the first person to step onto the Moon: “That’s one small step for man, one giant leap for mankind.” Aldrin followed 19 minutes later and called it “Magnificent desolation”.",
+          "details": [
+            [
+              "First step",
+              "02:56:15 UT"
+            ],
+            [
+              "Rock & soil collected",
+              "21.55 kg"
+            ],
+            [
+              "Walked",
+              "about 250 m in total"
+            ]
+          ],
+          "src": "apollo-11-lm",
+          "quotes": [
+            "Armstrong stepped onto the lunar surface at 02:56:15 UT on 21 July",
+            "That's one small step for man, one giant leap for mankind",
+            "Aldrin followed 19 minutes later, calling the lunar surface \"Magnificent desolation\"",
+            "collected 21.55 kg of lunar rock and soil",
+            "The astronauts traversed a total distance of about 250 meters"
+          ]
+        },
+        {
+          "id": "easep",
+          "type": "milestone",
+          "date": {
+            "iso": "1969-07-21",
+            "label": "21 Jul 1969"
+          },
+          "title": "Science left behind",
+          "text": "The astronauts set up the EASEP: a solar-powered science station with a seismometer to feel moonquakes and a dust detector. A laser reflector was placed nearby too.",
+          "details": [
+            [
+              "Package mass",
+              "48 kg"
+            ],
+            [
+              "Power",
+              "2 solar panels (daytime only)"
+            ],
+            [
+              "Instruments",
+              "Passive seismometer, lunar dust detector"
+            ],
+            [
+              "Also deployed",
+              "Laser ranging retroreflector"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-11-lm",
+          "quotes": [
+            "two solar panels to provide power (the EASEP could only operate during lunar day)",
+            "a passive seismometer, designed to measure seismic activity and physical properties of the lunar crust and interior, and a lunar dust detector",
+            "The unit had a total mass of 48 kg",
+            "The laser ranging retroreflector (LRRR) was also considered part of the EASEP"
+          ]
+        },
+        {
+          "id": "liftoff",
+          "type": "end",
+          "date": {
+            "iso": "1969-07-21",
+            "label": "21 Jul 1969"
+          },
+          "title": "Goodbye, Moon",
+          "text": "After 21 hours and 36 minutes, Eagle’s top half (the ascent stage) blasted off to rejoin Michael Collins. The bottom half stayed on the Moon — and it is still there.",
+          "details": [
+            [
+              "Lift-off",
+              "17:54:01 UT"
+            ],
+            [
+              "Time on the Moon",
+              "21 h 36 min"
+            ],
+            [
+              "Left behind",
+              "Descent stage"
+            ]
+          ],
+          "image": "lm-photo",
+          "src": "apollo-11-lm",
+          "quotes": [
+            "The LM lifted off from the Moon at 17:54:01 UT on 21 July after 21 hours, 36 minutes on the lunar surface",
+            "After docking with the CSM, piloted by Michael Collins",
+            "The descent stage served as a platform for launching the ascent stage and was left behind on the Moon"
+          ]
+        },
+        {
+          "id": "ascent-fate",
+          "type": "lost-contact",
+          "date": {
+            "iso": "1969-07-22",
+            "label": "22 Jul 1969"
+          },
+          "title": "A mystery ending",
+          "text": "The empty ascent stage was let go in orbit around the Moon. Nobody knows exactly what happened to it — it is assumed to have crashed into the Moon within 1 to 4 months.",
+          "details": [
+            [
+              "Released",
+              "00:01:01 UT"
+            ],
+            [
+              "Fate",
+              "Not known"
+            ]
+          ],
+          "src": "apollo-11-lm",
+          "quotes": [
+            "the LM was jettisoned into lunar orbit at 00:01:01 UT on 22 July",
+            "The fate of the LM is not known, but it is assumed that it crashed into the lunar surface sometime within the following 1 to 4 months"
+          ]
+        },
+        {
+          "id": "easep-end",
+          "type": "end",
+          "date": {
+            "iso": "1969-08-27",
+            "label": "27 Aug 1969"
+          },
+          "title": "The science station goes quiet",
+          "text": "Even though it got 30 °C hotter than planned, the EASEP worked normally. Near noon on its second lunar day it stopped accepting commands from Earth, and the experiment ended.",
+          "details": [
+            [
+              "Ended",
+              "27 Aug 1969"
+            ],
+            [
+              "Hotter than planned by",
+              "30 °C"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-11-lm",
+          "quotes": [
+            "Despite operating temperatures which exceeded the planned maximum by 30 C the EASEP functioned normally",
+            "on 27 August 1969, near noon of this second lunar day, the EASEP no longer accepted commands from Earth stations and the experiment was terminated"
+          ]
+        }
+      ],
+      "dataNotes": [
+        "The NSSDCA page does not name the launch pad, only “Cape Canaveral, United States”."
+      ]
+    },
+    {
+      "id": "apollo-12-lm",
+      "name": "Apollo 12 Lunar Module “Intrepid”",
+      "shortName": "Apollo 12 Intrepid",
+      "aliases": [
+        "Intrepid",
+        "LM-6",
+        "LEM 12",
+        "Apollo 12 LM/ALSEP",
+        "ALSEP"
+      ],
+      "kind": "Crewed lander + science station",
+      "body": "moon",
+      "model": "apollo_lm",
+      "markerShape": "lander",
+      "launchDate": {
+        "value": "14 November 1969",
+        "iso": "1969-11-14",
+        "src": "apollo-12-lm",
+        "quote": "Launch Date: 1969-11-14"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral, United States",
+        "src": "apollo-12-lm",
+        "quote": "Launch Site: Cape Canaveral, United States"
+      },
+      "launchVehicle": {
+        "value": "Saturn 5",
+        "src": "apollo-12-lm",
+        "quote": "Launch Vehicle: Saturn 5"
+      },
+      "purpose": {
+        "value": "Land astronauts and leave a science station",
+        "src": "apollo-12-lm",
+        "quote": "Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface"
+      },
+      "destination": {
+        "value": "The Moon · Oceanus Procellarum",
+        "src": "apollo-12-lm",
+        "quote": "on 19 November 1969 in the Oceanus Procellarum area"
+      },
+      "abandoned": {
+        "value": "1969",
+        "note": "descent stage left; ALSEP off in 1977",
+        "status": "ended",
+        "src": "apollo-12-lm",
+        "quotes": [
+          "was left behind on the Moon",
+          "The LM lifted off on 20 November",
+          "shut down along with the other ALSEP stations on 30 September 1977"
+        ]
+      },
+      "location": {
+        "lat": -3.0128,
+        "lon": -23.4219,
+        "name": "Oceanus Procellarum",
+        "src": "apollo-12-lm",
+        "quote": "at 3.0128 S latitude, 23.4219 W longitude"
+      },
+      "images": [
+        {
+          "id": "lm-photo",
+          "kind": "photo",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/apollo12_lunar_module.jpg",
+          "thumb": "https://nssdc.gsfc.nasa.gov/planetary/thumbnail/apollo12_lunar_module.gif",
+          "alt": "The Apollo 12 Lunar Module Intrepid",
+          "caption": "Image of the Apollo 12 Lunar Module / ALSEP spacecraft.",
+          "credit": "NASA / NSSDCA",
+          "src": "apollo-12-lm"
+        },
+        {
+          "id": "conrad",
+          "kind": "photo",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/news/image/conrad_19990709_c.jpg",
+          "alt": "Pete Conrad standing next to Surveyor 3",
+          "caption": "Apollo 12 astronaut Pete Conrad standing next to the Surveyor 3 spacecraft.",
+          "credit": "NASA / NSSDCA",
+          "src": "apollo-12-lm",
+          "quote": "Apollo 12 astronaut Pete Conrad standing next to the Surveyor 3 spacecraft"
+        },
+        {
+          "id": "lm-diagram",
+          "kind": "diagram",
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+          "alt": "Labelled diagram of the Apollo Lunar Module",
+          "caption": "Diagram of the Apollo Lunar Module. (Courtesy of NASA History Office.)",
+          "credit": "NASA History Office",
+          "src": "apollo-12-lm"
+        }
+      ],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1969-11-14",
+            "label": "14 Nov 1969"
+          },
+          "title": "Second trip to the Moon",
+          "text": "Intrepid launched on a Saturn 5 rocket. It would become the second crewed vehicle ever to land on the Moon.",
+          "details": [
+            [
+              "Rocket",
+              "Saturn 5"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral, United States"
+            ],
+            [
+              "Mass with fuel",
+              "15,235 kg"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-12-lm",
+          "quotes": [
+            "Launch Date: 1969-11-14",
+            "was the second crewed vehicle to land on the Moon",
+            "Mass: 15235 kg"
+          ]
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "1969-11-19",
+            "label": "19 Nov 1969"
+          },
+          "title": "A pinpoint landing",
+          "text": "Intrepid landed within about 180 metres of Surveyor 3, a robot lander that had been waiting there since April 1967. That is super accurate parking!",
+          "details": [
+            [
+              "Landed",
+              "06:54:35 UT"
+            ],
+            [
+              "Crew",
+              "Charles P. “Pete” Conrad & Alan L. Bean"
+            ],
+            [
+              "Position",
+              "3.013° S, 23.422° W"
+            ],
+            [
+              "Neighbour",
+              "Surveyor 3 (about 180 m away)"
+            ]
+          ],
+          "image": "lm-photo",
+          "src": "apollo-12-lm",
+          "quotes": [
+            "landed at 06:54:35 UT (1:54:35 a.m. EST) on 19 November 1969",
+            "within about 180 meters of the Surveyor 3 spacecraft, which had landed on April 20, 1967",
+            "Commander Charles P. \"Pete\" Conrad and LM pilot Alan L. Bean"
+          ]
+        },
+        {
+          "id": "tv-camera",
+          "type": "anomaly",
+          "date": {
+            "iso": "1969-11-19",
+            "label": "19 Nov 1969"
+          },
+          "title": "Oops — the TV camera!",
+          "text": "While it was being set up, the TV camera was accidentally pointed at the Sun. Its picture tube was damaged and the camera stopped working.",
+          "details": [
+            [
+              "What broke",
+              "TV camera (vidicon tube)"
+            ],
+            [
+              "Why",
+              "Pointed toward the Sun"
+            ]
+          ],
+          "src": "apollo-12-lm",
+          "quote": "The TV camera was inadvertantly pointed towards the Sun when it was being set up and the vidicon tube was damaged rendering the camera inoperable"
+        },
+        {
+          "id": "alsep-on",
+          "type": "milestone",
+          "date": {
+            "iso": "1969-11-19",
+            "label": "19 Nov 1969"
+          },
+          "title": "Science station switched on",
+          "text": "On the first moonwalk the astronauts set up the ALSEP, powered by a nuclear battery (an RTG) making about 70 watts. Its instruments listened for moonquakes and measured the solar wind and magnetism.",
+          "details": [
+            [
+              "Switched on",
+              "14:21 UT"
+            ],
+            [
+              "Power",
+              "SNAP-27 RTG, about 70 W"
+            ],
+            [
+              "Instruments",
+              "Seismometer, ion detector, ion gauge, dust detector, magnetometer, solar wind spectrometer"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-12-lm",
+          "quotes": [
+            "was turned on at 14:21 UT on 19 November 1969",
+            "The SNAP-27 model RTG produced the power to run the ALSEP operations",
+            "The RTG produced approximately 70 W DC at 16 V",
+            "a passive seismometer",
+            "a lunar surface magnetometer (LSM)",
+            "a solar wind spectrometer"
+          ]
+        },
+        {
+          "id": "surveyor-visit",
+          "type": "discovery",
+          "date": {
+            "iso": "1969-11-20",
+            "label": "20 Nov 1969"
+          },
+          "title": "Visiting Surveyor 3",
+          "text": "On the second moonwalk they hiked 1.3 km, collecting rocks — and walked up to Surveyor 3! They brought about 10 kg of its parts back to Earth to study.",
+          "details": [
+            [
+              "Geology walk",
+              "1.3 km"
+            ],
+            [
+              "Surveyor parts returned",
+              "about 10 kg"
+            ],
+            [
+              "Total samples",
+              "34.35 kg of rock & soil"
+            ]
+          ],
+          "image": "conrad",
+          "src": "apollo-12-lm",
+          "quotes": [
+            "they completed a 1.3 km geology traverse, collecting samples and taking photographs, and visited the Surveyor 3 spacecraft , bringing back about 10 kg of parts for later examination on Earth",
+            "They collected a total of 34.35 kg of rock and soil samples"
+          ]
+        },
+        {
+          "id": "moonquake",
+          "type": "end",
+          "date": {
+            "iso": "1969-11-20",
+            "label": "20 Nov 1969"
+          },
+          "title": "The first human-made moonquake",
+          "text": "After 31 hours on the Moon the crew flew home in the top half. Then that empty ascent stage was crashed into the Moon on purpose, about 60 km from their seismometer — making the first recorded artificial moonquake!",
+          "details": [
+            [
+              "Lift-off",
+              "14:25:47 UT"
+            ],
+            [
+              "Time on the Moon",
+              "31 h 31 min"
+            ],
+            [
+              "Impact",
+              "about 60 km from the seismic station"
+            ]
+          ],
+          "src": "apollo-12-lm",
+          "quotes": [
+            "The LM lifted off on 20 November at 14:25:47 UT (9:25 a.m. EST) after spending 31 hours 31 minutes on the Moon",
+            "intentionally crashed into the Moon",
+            "about 60 km from the seismic station at the Apollo 12 landing site, creating the first recorded artificial moonquake"
+          ]
+        },
+        {
+          "id": "alsep-off",
+          "type": "end",
+          "date": {
+            "iso": "1977-09-30",
+            "label": "30 Sep 1977"
+          },
+          "title": "Science station switched off",
+          "text": "Nearly eight years later, the Apollo 12 ALSEP was shut down together with all the other Apollo science stations on the Moon.",
+          "details": [
+            [
+              "Shut down",
+              "30 Sep 1977"
+            ]
+          ],
+          "image": "lm-photo",
+          "src": "apollo-12-lm",
+          "quote": "shut down along with the other ALSEP stations on 30 September 1977"
+        }
+      ],
+      "dataNotes": [
+        "The NSSDCA page does not name the launch pad, only “Cape Canaveral, United States”."
+      ]
+    },
+    {
+      "id": "apollo-15-lm",
+      "name": "Apollo 15 Lunar Module “Falcon”",
+      "shortName": "Apollo 15 Falcon",
+      "aliases": [
+        "Falcon",
+        "LM-10",
+        "LEM 15",
+        "Rover 15",
+        "Lunar Roving Vehicle",
+        "LRV"
+      ],
+      "kind": "Crewed lander + Moon buggy",
+      "body": "moon",
+      "model": "apollo_lm",
+      "markerShape": "lander",
+      "launchDate": {
+        "value": "26 July 1971",
+        "iso": "1971-07-26",
+        "src": "apollo-15-lm",
+        "quote": "Launch Date: 1971-07-26"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral, United States",
+        "src": "apollo-15-lm",
+        "quote": "Launch Site: Cape Canaveral, United States"
+      },
+      "launchVehicle": {
+        "value": "Saturn 5",
+        "src": "apollo-15-lm",
+        "quote": "Launch Vehicle: Saturn 5"
+      },
+      "purpose": {
+        "value": "Explore far with the first Moon buggy",
+        "src": "apollo-15-lm",
+        "quotes": [
+          "The LM also carried a Lunar Roving Vehicle (LRV)",
+          "This was the first time a vehicle of this type had been used"
+        ]
+      },
+      "destination": {
+        "value": "The Moon · Apennine mountains",
+        "src": "apollo-15-lm",
+        "quote": "in the Mare Imbrium region at the foot of the Apennine mountain range"
+      },
+      "abandoned": {
+        "value": "1971",
+        "note": "descent stage left; ALSEP off in 1977",
+        "status": "ended",
+        "src": "apollo-15-lm",
+        "quotes": [
+          "was left behind on the Moon",
+          "The LM lifted off the Moon on 2 August",
+          "shut down along with the other ALSEP stations on 30 September 1977"
+        ]
+      },
+      "location": {
+        "lat": 26.13239,
+        "lon": 3.6333,
+        "name": "Hadley–Apennine",
+        "src": "apollo-15-lm",
+        "quote": "at 26.13239 N latitude, 3.63330 E longitude"
+      },
+      "images": [
+        {
+          "id": "lm-photo",
+          "kind": "photo",
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_15_lm.jpg",
+          "thumb": "https://nssdc.gsfc.nasa.gov/thumbnail/spacecraft/apollo_15_lm.gif",
+          "alt": "The Apollo 15 Lunar Module Falcon",
+          "caption": "Image of the Apollo 15 Lunar Module /ALSEP spacecraft.",
+          "credit": "NASA / NSSDCA",
+          "src": "apollo-15-lm"
+        },
+        {
+          "id": "lm-diagram",
+          "kind": "diagram",
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+          "alt": "Labelled diagram of the Apollo Lunar Module",
+          "caption": "Diagram of the Apollo Lunar Module. (Courtesy of NASA History Office.)",
+          "credit": "NASA History Office",
+          "src": "apollo-15-lm"
+        }
+      ],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1971-07-26",
+            "label": "26 Jul 1971"
+          },
+          "title": "Packing a car for the Moon",
+          "text": "Falcon launched on a Saturn 5 carrying something new: a folded-up Lunar Roving Vehicle — a Moon buggy!",
+          "details": [
+            [
+              "Rocket",
+              "Saturn 5"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral, United States"
+            ],
+            [
+              "Mass with fuel",
+              "16,430 kg"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-15-lm",
+          "quotes": [
+            "Launch Date: 1971-07-26",
+            "The LM also carried a Lunar Roving Vehicle (LRV)",
+            "Mass: 16430 kg"
+          ]
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "1971-07-30",
+            "label": "30 Jul 1971"
+          },
+          "title": "Landing by the mountains",
+          "text": "Falcon landed at the foot of the Apennine mountains with David R. Scott and James B. Irwin — the seventh and eighth people to walk on the Moon.",
+          "details": [
+            [
+              "Landed",
+              "22:16:29 UT"
+            ],
+            [
+              "Crew",
+              "David R. Scott & James B. Irwin"
+            ],
+            [
+              "Where",
+              "Mare Imbrium, by the Apennines"
+            ],
+            [
+              "Position",
+              "26.132° N, 3.633° E"
+            ]
+          ],
+          "image": "lm-photo",
+          "src": "apollo-15-lm",
+          "quotes": [
+            "landed at 22:16:29 UT (6:16:29 p.m. EDT) on 30 July 1971 in the Mare Imbrium region at the foot of the Apennine mountain range",
+            "Commander David R. Scott and LM pilot James B. Irwin, the seventh and eighth men to walk on the Moon"
+          ]
+        },
+        {
+          "id": "rover",
+          "type": "milestone",
+          "date": {
+            "iso": "1971-07-31",
+            "label": "31 Jul 1971"
+          },
+          "title": "First drive on the Moon",
+          "text": "On the first moonwalk the rover was unloaded and driven — the first time a vehicle like this was used. They drove 10.3 km to the edge of Hadley Rille and set up the ALSEP science station.",
+          "details": [
+            [
+              "Drive",
+              "10.3 km"
+            ],
+            [
+              "Destination",
+              "Hadley Rille, Elbow Crater"
+            ],
+            [
+              "ALSEP on",
+              "18:37 UT"
+            ]
+          ],
+          "src": "apollo-15-lm",
+          "quotes": [
+            "The first moonwalk EVA was on 31 July from 13:13:10 UT to 19:45:59 UT, during which time the LRV was unloaded, deployed, and driven",
+            "This was the first time a vehicle of this type had been used",
+            "The traverse on the first EVA covered 10.3 km to the edge of Hadley Rille to Elbow Crater",
+            "was turned on at 18:37 UT on 31 July 1971"
+          ]
+        },
+        {
+          "id": "heat-flow",
+          "type": "discovery",
+          "date": {
+            "iso": "1971-07-31",
+            "label": "31 Jul 1971"
+          },
+          "title": "Taking the Moon’s temperature",
+          "text": "This ALSEP had seven instruments, including a new heat-flow experiment to measure how fast heat escapes from inside the Moon.",
+          "details": [
+            [
+              "Instruments",
+              "7"
+            ],
+            [
+              "New",
+              "Heat flow experiment"
+            ],
+            [
+              "Power",
+              "SNAP-27 RTG"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-15-lm",
+          "quotes": [
+            "(7) a heat flow experiment, designed to measure the rate of heat loss from the lunar interior and the thermal properties of lunar material",
+            "The SNAP-27 model RTG produced the power to run the ALSEP operations"
+          ]
+        },
+        {
+          "id": "feather",
+          "type": "discovery",
+          "date": {
+            "iso": "1971-08-02",
+            "label": "2 Aug 1971"
+          },
+          "title": "Hammer vs. feather",
+          "text": "After the last moonwalk, Scott dropped a hammer and a feather on live TV. With no air on the Moon, they fell at the same rate!",
+          "details": [
+            [
+              "Moonwalks",
+              "3 (18 h 35 min total)"
+            ],
+            [
+              "Distance driven",
+              "27.9 km"
+            ],
+            [
+              "Samples",
+              "77.31 kg"
+            ]
+          ],
+          "src": "apollo-15-lm",
+          "quotes": [
+            "Scott performed a televised demonstration of a hammer and feather falling at the same rate in the lunar vacuum",
+            "three moonwalk extra-vehicular activities (EVAs) totaling 18 hours, 35 minutes",
+            "During this time they covered 27.9 km and collected 77.31 kg of rock and soil samples"
+          ]
+        },
+        {
+          "id": "liftoff",
+          "type": "end",
+          "date": {
+            "iso": "1971-08-02",
+            "label": "2 Aug 1971"
+          },
+          "title": "Leaving gifts behind",
+          "text": "Before leaving, the crew placed a plaque and a small figure honouring the 14 American and Soviet space explorers who had died. Falcon’s top half lifted off after almost 67 hours on the Moon.",
+          "details": [
+            [
+              "Lift-off",
+              "17:11:22 UT"
+            ],
+            [
+              "Time on the Moon",
+              "66 h 55 min"
+            ],
+            [
+              "Left behind",
+              "Descent stage, rover, ALSEP, plaque"
+            ]
+          ],
+          "image": "lm-photo",
+          "src": "apollo-15-lm",
+          "quotes": [
+            "The astronauts also left a plaque and small figure on the surface in memory of all fourteen American and Soviet space explorers",
+            "The LM lifted off the Moon on 2 August at 17:11:22 UT after 66 hours, 55 minutes on the lunar surface"
+          ]
+        },
+        {
+          "id": "impact",
+          "type": "end",
+          "date": {
+            "iso": "1971-08-03",
+            "label": "3 Aug 1971"
+          },
+          "title": "Crash landing (on purpose)",
+          "text": "The empty ascent stage was released and hit the Moon about two hours later.",
+          "details": [
+            [
+              "Released",
+              "01:04:14 UT"
+            ],
+            [
+              "Impact",
+              "03:03:37 UT"
+            ],
+            [
+              "Impact point",
+              "26.36° N, 0.25° E"
+            ]
+          ],
+          "src": "apollo-15-lm",
+          "quote": "the LM was jettisoned on 3 August at 01:04:14 UT and impacted on the Moon 2 hours later (03:03:37.0 UT) at 26.36 N, 0.25 E"
+        },
+        {
+          "id": "alsep-off",
+          "type": "end",
+          "date": {
+            "iso": "1977-09-30",
+            "label": "30 Sep 1977"
+          },
+          "title": "Science station switched off",
+          "text": "The Apollo 15 ALSEP was shut down along with all the other Apollo science stations.",
+          "details": [
+            [
+              "Shut down",
+              "30 Sep 1977"
+            ]
+          ],
+          "image": "lm-diagram",
+          "src": "apollo-15-lm",
+          "quote": "shut down along with the other ALSEP stations on 30 September 1977"
+        }
+      ],
+      "dataNotes": [
+        "The Lunar Roving Vehicle is described inside the Apollo 15 LM record; it has no separate record, launch data or image, so it is not a separate machine."
+      ]
+    },
+    {
+      "id": "viking-1",
+      "name": "Viking 1",
+      "aliases": [
+        "Viking-B",
+        "Viking Lander 1",
+        "Thomas Mutch Memorial Station",
+        "Viking orbiter"
+      ],
+      "kind": "Orbiter + lander",
+      "body": "mars",
+      "model": null,
+      "markerShape": "lander",
+      "orbiter": true,
+      "launchDate": {
+        "value": "20 August 1975",
+        "iso": "1975-08-20",
+        "src": "viking-1",
+        "quote": "Launch Date and Time Aug. 20, 1975 / 21:22:00 UT"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral, Fla. (Launch Complex 41)",
+        "src": "viking-1",
+        "quote": "Launch Site Cape Canaveral, Fla. / Launch Complex 41"
+      },
+      "launchVehicle": {
+        "value": "Titan IIIE-Centaur",
+        "src": "viking-1",
+        "quote": "Launch Vehicle Titan IIIE-Centaur"
+      },
+      "purpose": {
+        "value": "Search Mars for signs of life",
+        "src": "viking-1",
+        "quote": "collect evidence on the possibility on life on Mars"
+      },
+      "destination": {
+        "value": "Mars · Chryse Planitia",
+        "src": "viking-1",
+        "quote": "the western slopes of Chryse Planitia (Golden Plain)"
+      },
+      "abandoned": {
+        "value": "1982",
+        "note": "lander lost; orbiter off in 1980",
+        "status": "lost",
+        "src": "viking-1",
+        "quotes": [
+          "Nov. 11, 1982 Lander stopped operating after getting a faulty command",
+          "Aug. 7, 1980 Orbiter was shut down after running out of attitude-control propellant"
+        ]
+      },
+      "location": {
+        "lat": 22.483,
+        "lon": -47.94,
+        "name": "Chryse Planitia",
+        "src": "viking-1",
+        "quote": "set down safely at 22.483 degrees north latitude and 47.94 degrees west longitude"
+      },
+      "images": [],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1975-08-20",
+            "label": "20 Aug 1975"
+          },
+          "title": "A last-minute swap",
+          "text": "Just before launch, the first spacecraft’s batteries ran down, so NASA swapped in the second one — which flew as Viking 1 on a Titan IIIE-Centaur rocket.",
+          "details": [
+            [
+              "Time",
+              "21:22:00 UT"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral, Launch Complex 41"
+            ],
+            [
+              "Rocket",
+              "Titan IIIE-Centaur"
+            ],
+            [
+              "Mass",
+              "3,527 kg"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "Prior to launch, the batteries of the first spacecraft were discharged, prompting NASA to replace the original first spacecraft with the second, which was launched as Viking 1",
+            "7,776 pounds (3,527 kilograms)"
+          ]
+        },
+        {
+          "id": "orbit",
+          "type": "arrival",
+          "date": {
+            "iso": "1976-06-19",
+            "label": "19 Jun 1976"
+          },
+          "title": "Arriving at Mars",
+          "text": "After three course corrections, Viking 1 went into orbit around Mars. It was really two machines in one: an orbiter and a lander riding together.",
+          "details": [
+            [
+              "Course corrections",
+              "3"
+            ],
+            [
+              "Orbiter mass",
+              "2,339 kg"
+            ],
+            [
+              "Lander mass",
+              "978 kg"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "After three course corrections",
+            "the spacecraft entered orbit around Mars June 19, 1976",
+            "an orbiter (5,157 pounds or 2,339 kilograms) and a lander (2,156 pounds or 978 kilograms)"
+          ]
+        },
+        {
+          "id": "new-site",
+          "type": "anomaly",
+          "date": {
+            "iso": null,
+            "label": "Jun 1976"
+          },
+          "title": "Too bumpy to land!",
+          "text": "The orbiter’s first photos showed the planned landing site in Chryse was rougher than expected. Scientists used the new pictures to pick a safer spot.",
+          "details": [
+            [
+              "Old target",
+              "Chryse region"
+            ],
+            [
+              "New target",
+              "Western slopes of Chryse Planitia"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "scientists discovered that the area was rougher than expected",
+            "Using the new photos, scientists targeted the lander to a different site on the western slopes of Chryse Planitia (Golden Plain)"
+          ]
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "1976-07-20",
+            "label": "20 Jul 1976"
+          },
+          "title": "The first truly successful Mars landing",
+          "text": "Viking Lander 1 set down safely — the first truly successful landing on Mars. It landed about 28 km from its target and soon sent colour photos and a 300° panorama.",
+          "details": [
+            [
+              "Touchdown",
+              "11:53:06 UT"
+            ],
+            [
+              "Position",
+              "22.483° N, 47.94° W"
+            ],
+            [
+              "Missed target by",
+              "about 28 km"
+            ],
+            [
+              "Temperatures",
+              "−86 °C to −33 °C"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "NASA's Viking 1 made the first truly successful landing on Mars",
+            "Viking Lander 1 set down safely at 22.483 degrees north latitude and 47.94 degrees west longitude at 11:53:06 UT July 20, 1976",
+            "It landed about 17 miles (28 kilometers) from its planned target",
+            "a 300-degree panorama",
+            "minus 86 degrees Celsius",
+            "minus 33 degrees Celsius"
+          ]
+        },
+        {
+          "id": "seismometer",
+          "type": "anomaly",
+          "date": {
+            "iso": null,
+            "label": "Jul 1976"
+          },
+          "title": "A broken earthquake detector",
+          "text": "Not everything worked: the lander’s seismometer, built to feel “marsquakes”, did not work.",
+          "details": [
+            [
+              "Instrument",
+              "Seismometer"
+            ],
+            [
+              "Status",
+              "Inoperable"
+            ]
+          ],
+          "src": "viking-1",
+          "quote": "The seismometer on the lander was, however, inoperable"
+        },
+        {
+          "id": "soil",
+          "type": "discovery",
+          "date": {
+            "iso": "1976-07-28",
+            "label": "28 Jul 1976"
+          },
+          "title": "Is anything alive?",
+          "text": "The robot arm scooped the first Martian soil into a tiny biology lab. Some tests looked like a weak “maybe” for life, but the main test for organic chemicals said no. The soil also had lots of sulfur.",
+          "details": [
+            [
+              "Samples tested",
+              "4"
+            ],
+            [
+              "Life tests",
+              "Weak positive"
+            ],
+            [
+              "Organic compounds",
+              "Not found"
+            ],
+            [
+              "Surprise",
+              "Lots of sulfur"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "On July 28, 1976, the lander's robot arm scooped up the first soil samples and deposited them into a special biological laboratory",
+            "could have been construed as indicating the presence of life (weak positive)",
+            "gave negative results",
+            "Data showed an abundance of sulfur"
+          ]
+        },
+        {
+          "id": "orbiter-off",
+          "type": "end",
+          "date": {
+            "iso": "1980-08-07",
+            "label": "7 Aug 1980"
+          },
+          "title": "The orbiter runs out of fuel",
+          "text": "After 1,489 orbits and many sharp photos of Mars and its two moons, the orbiter ran out of the gas it used to point itself and was switched off.",
+          "details": [
+            [
+              "Orbits",
+              "1,489"
+            ],
+            [
+              "Reason",
+              "Out of attitude-control propellant"
+            ]
+          ],
+          "src": "viking-1",
+          "quote": "was shut down Aug. 7, 1980, after it ran out of attitude control propellant on its 1,489th orbit around Mars"
+        },
+        {
+          "id": "renamed",
+          "type": "milestone",
+          "date": {
+            "iso": "1982-01",
+            "label": "Jan 1982"
+          },
+          "title": "A new name",
+          "text": "The lander kept sending weather reports. It was renamed the Thomas Mutch Memorial Station, honouring the leader of the Viking imaging team.",
+          "details": [
+            [
+              "New name",
+              "Thomas Mutch Memorial Station"
+            ],
+            [
+              "Job",
+              "Daily, then weekly weather reports"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "The lander continued to return daily (and then eventually weekly) weather reports",
+            "In January 1982, it was renamed the Thomas Mutch Memorial Station in honor of Thomas A. Mutch"
+          ]
+        },
+        {
+          "id": "lost",
+          "type": "lost-contact",
+          "date": {
+            "iso": "1982-11-11",
+            "label": "11 Nov 1982"
+          },
+          "title": "One wrong command",
+          "text": "A faulty command sent from Earth cut off communications. Engineers tried to get back in touch, but they never could. The lander is still sitting on Mars.",
+          "details": [
+            [
+              "Lost",
+              "11 Nov 1982"
+            ],
+            [
+              "Cause",
+              "Faulty command from Earth"
+            ]
+          ],
+          "src": "viking-1",
+          "quotes": [
+            "The lander operated until Nov. 11, 1982, when a faulty command sent from Earth resulted in an interruption of communications",
+            "Further attempts to regain contact proved to be unsuccessful"
+          ]
+        }
+      ],
+      "dataNotes": [
+        "Viking 1 is shown as one machine with two markers (lander on the surface at the given coordinates, plus a stylised orbiter circling Mars).",
+        "The image totals in the PDF (52,663 orbiter images; 4,500 lander photos) are for BOTH Viking missions together, so they are not shown as Viking 1 numbers."
+      ]
+    },
+    {
+      "id": "mars-pathfinder",
+      "name": "Mars Pathfinder & Sojourner",
+      "shortName": "Pathfinder & Sojourner",
+      "aliases": [
+        "Sojourner",
+        "Pathfinder",
+        "Carl Sagan Memorial Station"
+      ],
+      "kind": "Lander + first Mars rover",
+      "body": "mars",
+      "model": "mars_rover",
+      "markerShape": "rover",
+      "launchDate": {
+        "value": "4 December 1996",
+        "iso": "1996-12-04",
+        "src": "mars-pathfinder",
+        "quote": "Launch December 4, 1996 (UTC)"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral Air Force Station, Florida",
+        "src": "mars-pathfinder",
+        "quote": "Launch location Cape Canaveral Air Force Station, Florida, USA"
+      },
+      "launchVehicle": {
+        "value": "Delta II 7925",
+        "src": "mars-pathfinder",
+        "quote": "Rocket Delta II 7925"
+      },
+      "purpose": {
+        "value": "Test new ways to land and rove on Mars",
+        "src": "mars-pathfinder",
+        "quote": "Mars Pathfinder was designed as a technology demonstration to deliver an instrumented lander and a free-ranging robotic rover to the surface of Mars"
+      },
+      "destination": {
+        "value": "Mars · Ares Vallis",
+        "src": "mars-pathfinder",
+        "quote": "Landing site Ares Vallis, Mars"
+      },
+      "abandoned": {
+        "value": "1997",
+        "note": "final data transmission",
+        "status": "ended",
+        "src": "mars-pathfinder",
+        "quote": "before its final data transmission on September 27, 1997"
+      },
+      "location": {
+        "lat": null,
+        "lon": null,
+        "name": "Ares Vallis",
+        "src": "mars-pathfinder",
+        "quote": "Landing site Ares Vallis, Mars"
+      },
+      "images": [],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1996-12-04",
+            "label": "4 Dec 1996"
+          },
+          "title": "Off to Mars",
+          "text": "Mars Pathfinder launched on a Delta II rocket, carrying a lander and a tiny rover. It was a test mission to try out new landing and driving technology.",
+          "details": [
+            [
+              "Rocket",
+              "Delta II 7925"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral Air Force Station, Florida"
+            ],
+            [
+              "Rover mass",
+              "10.6 kg"
+            ]
+          ],
+          "src": "mars-pathfinder",
+          "quotes": [
+            "Launch December 4, 1996 (UTC)",
+            "Rocket Delta II 7925",
+            "Sojourner 23 pounds (10.6 kilograms)",
+            "while testing new landing and surface-operation technologies"
+          ]
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "1997-07-04",
+            "label": "4 Jul 1997"
+          },
+          "title": "Bounce, bounce, bounce!",
+          "text": "A parachute slowed it down, then giant airbags wrapped the lander like bubble wrap. It hit Mars at about 14 m/s and bounced about 15 times — up to 15 m high — the first airbag landing on Mars!",
+          "details": [
+            [
+              "Impact speed",
+              "about 14 m/s"
+            ],
+            [
+              "Airbag size",
+              "about 5.8 m across"
+            ],
+            [
+              "Bounces",
+              "about 15"
+            ],
+            [
+              "Highest bounce",
+              "about 15 m"
+            ]
+          ],
+          "src": "mars-pathfinder",
+          "quotes": [
+            "A large airbag system cushioned the impact—the first use of this landing technique on Mars",
+            "struck the surface at about 31 mph (14 meters per second)",
+            "about 19 feet (5.8 meters) in diameter",
+            "Pathfinder bounced about 15 times, reaching heights of up to 50 feet (15 meters)"
+          ]
+        },
+        {
+          "id": "rollout",
+          "type": "milestone",
+          "date": {
+            "iso": "1997-07-05",
+            "label": "5 Jul 1997"
+          },
+          "title": "Sojourner rolls out",
+          "text": "On sol 2 (the second Martian day), the rover Sojourner stood up to its full height of about 30 cm and rolled down the lander’s ramp onto Mars. It was named after civil-rights activist Sojourner Truth.",
+          "details": [
+            [
+              "Rover height",
+              "about 30 cm"
+            ],
+            [
+              "Ramp slope",
+              "20°"
+            ],
+            [
+              "Lander's name",
+              "Carl Sagan Memorial Station"
+            ]
+          ],
+          "src": "mars-pathfinder",
+          "quotes": [
+            "Late on July 5, 1997 (sol 2, the second Martian day), Sojourner rose to its full height of about 1 foot (30 centimeters) and rolled down the lander's rear ramp, which was inclined at 20 degrees",
+            "named after American civil-rights activist Sojourner Truth",
+            "The lander was named the Carl Sagan Memorial Station"
+          ]
+        },
+        {
+          "id": "water",
+          "type": "discovery",
+          "date": {
+            "iso": null,
+            "label": "1997"
+          },
+          "title": "Clues of ancient water",
+          "text": "Rounded pebbles and cobbles hinted at rocks formed by flowing water. Mars may once have been warmer and wetter!",
+          "details": [
+            [
+              "Landing site",
+              "Ares Vallis, an ancient floodplain"
+            ],
+            [
+              "Rock & soil analyses",
+              "more than 15"
+            ]
+          ],
+          "src": "mars-pathfinder",
+          "quotes": [
+            "Rounded pebbles and cobbles suggested conglomerate rocks formed by flowing water",
+            "Findings suggested Mars may once have been warmer and wetter, with liquid water at the surface",
+            "Ares Vallis is an ancient floodplain",
+            "completed more than 15 chemical analyses of rocks and soil"
+          ]
+        },
+        {
+          "id": "weather",
+          "type": "discovery",
+          "date": {
+            "iso": null,
+            "label": "1997"
+          },
+          "title": "Dust devils & magnetic dust",
+          "text": "Weather sensors caught dust devils swirling by, the floating dust turned out to be magnetic, and thin water-ice clouds showed up early in the morning.",
+          "details": [
+            [
+              "Dust",
+              "Magnetic (maybe maghemite)"
+            ],
+            [
+              "Clouds",
+              "Early-morning water-ice clouds"
+            ]
+          ],
+          "src": "mars-pathfinder",
+          "quotes": [
+            "Temperature, wind, and pressure sensors measured dust devils",
+            "Airborne dust was magnetic",
+            "Its properties suggested the mineral could be maghemite",
+            "Early-morning water-ice clouds were observed in the lower atmosphere"
+          ]
+        },
+        {
+          "id": "end",
+          "type": "end",
+          "date": {
+            "iso": "1997-09-27",
+            "label": "27 Sep 1997"
+          },
+          "title": "Final message",
+          "text": "Pathfinder sent its last data. In total it returned 2.3 billion bits of information, including more than 16,500 lander pictures and 550 rover pictures.",
+          "details": [
+            [
+              "Last transmission",
+              "27 Sep 1997"
+            ],
+            [
+              "Lander images",
+              "16,500+"
+            ],
+            [
+              "Rover images",
+              "550"
+            ]
+          ],
+          "src": "mars-pathfinder",
+          "quotes": [
+            "Mars Pathfinder returned about 2.3 billion bits of information before its final data transmission on September 27, 1997",
+            "It sent more than 16,500 lander images and 550 rover images"
+          ]
+        }
+      ],
+      "dataNotes": [
+        "Exact landing coordinates are not in the data (only “Ares Vallis”). The marker uses an approximate display position, labelled as approximate in the app.",
+        "Sojourner has no separate end date in the data, so the lander + rover are one machine (the uploaded rover 3D model represents Sojourner). The rover model is a generic rover by shriyans716 (CC-BY-4.0) and does not look exactly like the real Sojourner.",
+        "The data gives no launch time or launch pad number."
+      ]
+    },
+    {
+      "id": "near-shoemaker",
+      "name": "NEAR Shoemaker",
+      "aliases": [
+        "NEAR",
+        "Near Earth Asteroid Rendezvous",
+        "Eros"
+      ],
+      "kind": "Asteroid orbiter (and surprise lander)",
+      "body": "deep-space",
+      "anchor": "eros",
+      "model": null,
+      "markerShape": "probe",
+      "launchDate": {
+        "value": "17 February 1996",
+        "iso": "1996-02-17",
+        "src": "near-shoemaker",
+        "quote": "Launch Date and Time Feb. 17, 1996 / 20:43:27 UT"
+      },
+      "launchSite": {
+        "value": "Cape Canaveral, Fla. (Launch Complex 17B)",
+        "src": "near-shoemaker",
+        "quote": "Launch Site Cape Canaveral, Fla. / Launch Complex 17B"
+      },
+      "launchVehicle": {
+        "value": "Delta 7925-8",
+        "src": "near-shoemaker",
+        "quote": "Launch Vehicle Delta 7925-8"
+      },
+      "purpose": {
+        "value": "Orbit and study the asteroid Eros",
+        "src": "near-shoemaker",
+        "quote": "NEAR's primary goal was to rendezvous with the minor planet 433 Eros"
+      },
+      "destination": {
+        "value": "Asteroid 433 Eros",
+        "src": "near-shoemaker",
+        "quote": "the minor planet 433 Eros (an S-class asteroid)"
+      },
+      "abandoned": {
+        "value": "2001",
+        "note": "last contact",
+        "status": "lost",
+        "src": "near-shoemaker",
+        "quote": "Last contact with NEAR was Feb. 28, 2001"
+      },
+      "images": [],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "1996-02-17",
+            "label": "17 Feb 1996"
+          },
+          "title": "A low-cost explorer",
+          "text": "NEAR was the very first mission of NASA’s Discovery program — smaller, cheaper science missions. It was also the first spacecraft to run on solar power beyond the orbit of Mars.",
+          "details": [
+            [
+              "Time",
+              "20:43:27 UT"
+            ],
+            [
+              "Launch site",
+              "Cape Canaveral, Launch Complex 17B"
+            ],
+            [
+              "Rocket",
+              "Delta 7925-8"
+            ],
+            [
+              "Mass",
+              "805 kg"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "was the first mission flown under NASA's Discovery program",
+            "The spacecraft was the first to rely on solar cells for power during operations beyond Mars orbit",
+            "1,775 pounds (805 kilograms)"
+          ]
+        },
+        {
+          "id": "mathilde",
+          "type": "milestone",
+          "date": {
+            "iso": "1997-06-27",
+            "label": "27 Jun 1997"
+          },
+          "title": "Say hi to Mathilde",
+          "text": "On the way, NEAR zoomed past asteroid 253 Mathilde for 25 minutes. It turned out to be covered in craters and less dense than expected.",
+          "details": [
+            [
+              "Flyby length",
+              "25 minutes"
+            ],
+            [
+              "Closest approach",
+              "about 1,200 km"
+            ],
+            [
+              "Photographed",
+              "60% of Mathilde"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "NEAR performed a 25-minute flyby of the asteroid 253 Mathilde on June 27, 1997",
+            "The closest approach was about 750 miles (1,200 kilometers)",
+            "the spacecraft photographed 60 percent of the minor planet",
+            "is covered with craters and is less dense than previously believed"
+          ]
+        },
+        {
+          "id": "earth-flyby",
+          "type": "milestone",
+          "date": {
+            "iso": "1998-01-23",
+            "label": "23 Jan 1998"
+          },
+          "title": "A slingshot from Earth",
+          "text": "NEAR swung past Earth, using our planet’s gravity like a slingshot to head toward Eros.",
+          "details": [
+            [
+              "Closest approach",
+              "about 540 km"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "NEAR flew by Earth on Jan. 23, 1998, at 07:23 UT for a gravity assist on its way to Eros",
+            "The closest approach was about 335 miles (540 kilometers)"
+          ]
+        },
+        {
+          "id": "burn-abort",
+          "type": "anomaly",
+          "date": {
+            "iso": "1998-12-20",
+            "label": "20 Dec 1998"
+          },
+          "title": "Engine trouble!",
+          "text": "An engine burn was aborted, so NEAR missed the steering it needed to meet Eros. The team switched to a backup plan.",
+          "details": [
+            [
+              "Problem",
+              "Aborted engine burn"
+            ],
+            [
+              "Fix",
+              "Backup trajectory"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "an aborted engine burn on Dec. 20, 1998, that prevented a critical trajectory correction",
+            "NEAR was put on a backup trajectory"
+          ]
+        },
+        {
+          "id": "eros-flyby",
+          "type": "discovery",
+          "date": {
+            "iso": "1998-12-23",
+            "label": "23 Dec 1998"
+          },
+          "title": "First look at Eros",
+          "text": "NEAR flew past Eros and saw about 60% of it. Eros was smaller than expected, with two medium-sized craters and a long ridge.",
+          "details": [
+            [
+              "Distance",
+              "about 3,827 km"
+            ],
+            [
+              "Seen",
+              "about 60%"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "the spacecraft first flew past Eros on Dec. 23, 1998",
+            "2,380 miles (3,827 kilometers)",
+            "it observed about 60 percent of the asteroid, and discovered that the minor planet was smaller than expected",
+            "the asteroid has two medium-sized craters, a long surface ridge"
+          ]
+        },
+        {
+          "id": "orbit",
+          "type": "arrival",
+          "date": {
+            "iso": "2000-02-14",
+            "label": "14 Feb 2000"
+          },
+          "title": "First asteroid orbiter ever",
+          "text": "About a year late, NEAR finally moved into orbit around Eros — the first human-made object ever to orbit an asteroid. A Valentine’s Day first!",
+          "details": [
+            [
+              "Arrived",
+              "15:33 UT"
+            ],
+            [
+              "First orbit",
+              "about 321 × 366 km"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "NEAR finally moved into orbit around Eros at 15:33 UT Feb. 14, 2000, roughly a year later than intended, becoming the first human-made object to orbit a minor planet",
+            "200 × 225 miles (321 × 366 kilometers)"
+          ]
+        },
+        {
+          "id": "renamed",
+          "type": "milestone",
+          "date": {
+            "iso": "2000-03-14",
+            "label": "14 Mar 2000"
+          },
+          "title": "Named after a rock star (geologist)",
+          "text": "NASA renamed the spacecraft NEAR Shoemaker in honour of the famous geologist Eugene M. Shoemaker.",
+          "details": [
+            [
+              "New name",
+              "NEAR Shoemaker"
+            ],
+            [
+              "Honouring",
+              "Eugene M. Shoemaker (1928–1997)"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quote": "on March 14, 2000, a month after entering asteroid orbit, NASA renamed the NEAR spacecraft NEAR Shoemaker in honor of Eugene M. Shoemaker"
+        },
+        {
+          "id": "power-surge",
+          "type": "anomaly",
+          "date": {
+            "iso": "2000-05-13",
+            "label": "13 May 2000"
+          },
+          "title": "Power surge",
+          "text": "Controllers had to turn off the near-infrared spectrometer because of a big power surge.",
+          "details": [
+            [
+              "Instrument",
+              "Near Infrared Spectrometer"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quote": "on May 13, 2000, controllers had to turn off the near-infrared spectrometer due to an excessive power surge"
+        },
+        {
+          "id": "landing",
+          "type": "landing",
+          "date": {
+            "iso": "2001-02-12",
+            "label": "12 Feb 2001"
+          },
+          "title": "Landing on an asteroid!",
+          "text": "NEAR wasn’t built to land — but it slowly came down, taking 69 close-up photos, and touched Eros at a gentle 6.4 km/h. It survived and kept sending data for about two weeks!",
+          "details": [
+            [
+              "Touchdown",
+              "19:44 UT"
+            ],
+            [
+              "Speed",
+              "6.4 km/h"
+            ],
+            [
+              "Photos on the way down",
+              "69"
+            ],
+            [
+              "Where",
+              "South of Himeros"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "the spacecraft – which was not designed as a lander – survived touchdown on the asteroid and returned valuable data for about two weeks",
+            "during which it took 69 high-resolution photos of Eros, NEAR touched down on Eros at a gentle 4 miles per hour (6.4 kilometers per hour), just south of a saddle-shaped feature named Himeros, on Feb. 12, 2001, at 19:44 UT"
+          ]
+        },
+        {
+          "id": "frozen",
+          "type": "lost-contact",
+          "date": {
+            "iso": "2001-02-28",
+            "label": "28 Feb 2001"
+          },
+          "title": "Frozen silent",
+          "text": "In the extreme cold of −173 °C, NEAR stopped talking. By then it had sent about 10 times more data than planned, including 160,000 pictures — and found that Eros has no magnetic field.",
+          "details": [
+            [
+              "Temperature",
+              "−173 °C"
+            ],
+            [
+              "Images",
+              "160,000"
+            ],
+            [
+              "Data",
+              "about 10× the plan"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quotes": [
+            "The last contact with NEAR was Feb. 28, 2001, the spacecraft having succumbed to the extreme cold",
+            "minus 173 degrees Celsius",
+            "The spacecraft returned about 10 times more data than originally planned, including 160,000 images",
+            "NEAR data showed that Eros had no magnetic field"
+          ]
+        },
+        {
+          "id": "retry",
+          "type": "end",
+          "date": {
+            "iso": "2002-12-10",
+            "label": "10 Dec 2002"
+          },
+          "title": "Anyone there?",
+          "text": "Nearly two years later, NASA tried to contact NEAR again. There was no answer.",
+          "details": [
+            [
+              "Result",
+              "Unsuccessful"
+            ]
+          ],
+          "src": "near-shoemaker",
+          "quote": "NASA's attempt to contact the probe nearly two years later on Dec. 10, 2002, was unsuccessful"
+        }
+      ],
+      "dataNotes": [
+        "NEAR sits on Eros, which is shown as a stylised, procedurally generated asteroid. Its position in the scene is decorative, not a real orbit."
+      ]
+    },
+    {
+      "id": "kepler",
+      "name": "Kepler Space Telescope",
+      "shortName": "Kepler / K2",
+      "aliases": [
+        "Kepler",
+        "K2",
+        "Kepler / K2",
+        "planet hunter"
+      ],
+      "kind": "Space telescope",
+      "body": "deep-space",
+      "model": null,
+      "markerShape": "telescope",
+      "launchDate": {
+        "value": "6 March 2009",
+        "iso": "2009-03-06",
+        "src": "kepler-k2",
+        "quote": "Launched on March 6, 2009"
+      },
+      "launchSite": null,
+      "launchVehicle": null,
+      "purpose": {
+        "value": "Hunt for Earth-size planets around other stars",
+        "src": "kepler-k2",
+        "quote": "became the agency's first mission to detect Earth-size planets in the habitable zones of their stars"
+      },
+      "destination": null,
+      "abandoned": {
+        "value": "2018",
+        "note": "retired",
+        "status": "retired",
+        "src": "kepler-k2",
+        "quote": "Before retiring the spacecraft on Oct. 30, 2018"
+      },
+      "images": [],
+      "events": [
+        {
+          "id": "launch",
+          "type": "launch",
+          "date": {
+            "iso": "2009-03-06",
+            "label": "6 Mar 2009"
+          },
+          "title": "The biggest camera in space",
+          "text": "Kepler launched with the largest digital camera sent into space for observing at that time. Its job: stare at about 150,000 stars in the constellation Cygnus.",
+          "details": [
+            [
+              "Telescope aperture",
+              "1 m"
+            ],
+            [
+              "Mirror",
+              "1.4 m"
+            ],
+            [
+              "Stars watched",
+              "about 150,000"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "Launched on March 6, 2009",
+            "the largest digital camera outfitted for outer space observations at that time",
+            "stare continuously at 150,000 stars in one star-studded patch of the sky in the constellation Cygnus",
+            "3-foot (1-meter) diameter aperture telescope",
+            "4 feet, 7 inches (1.4 meters)"
+          ]
+        },
+        {
+          "id": "first-five",
+          "type": "discovery",
+          "date": {
+            "iso": "2010-01",
+            "label": "Jan 2010"
+          },
+          "title": "Five new worlds",
+          "text": "Kepler finds planets by watching for tiny dips in a star’s brightness when a planet passes in front. In its first six weeks it found five — announced in January 2010.",
+          "details": [
+            [
+              "Planets",
+              "Kepler 4b, 5b, 6b, 7b, 8b"
+            ],
+            [
+              "Method",
+              "Transits (tiny dips in starlight)"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "Kepler detected planets by observing transits, or tiny dips in the brightness of a star that occur when a planet crosses in front of the star",
+            "During its first six weeks of operation, Kepler discovered five exoplanets—named Kepler 4b, 5b, 6b, 7b and 8b (which NASA announced in January 2010)"
+          ]
+        },
+        {
+          "id": "kepler-9",
+          "type": "discovery",
+          "date": {
+            "iso": "2010-04",
+            "label": "Apr 2010"
+          },
+          "title": "A family of planets",
+          "text": "Kepler-9 became the first confirmed system with more than one planet passing in front of the same star.",
+          "details": [
+            [
+              "Stars surveyed",
+              "more than 156,000"
+            ],
+            [
+              "Survey time",
+              "7 months"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "In April 2010, mission scientists published results that showed that Kepler had discovered the first confirmed planetary system with more than one planet transiting the same star, Kepler-9",
+            "surveying more than 156,000 stars over a period of seven months"
+          ]
+        },
+        {
+          "id": "kepler-11",
+          "type": "discovery",
+          "date": {
+            "iso": "2011-02",
+            "label": "Feb 2011"
+          },
+          "title": "Six planets at Kepler-11",
+          "text": "Around Kepler-11, a yellow dwarf star about 2,000 light years away, Kepler found six planets — all bigger than Earth.",
+          "details": [
+            [
+              "Planets",
+              "6"
+            ],
+            [
+              "Distance",
+              "about 2,000 light years"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "The planetary system orbiting Kepler-11, a yellow dwarf star about 2,000 light years from Earth, included six planets",
+            "NASA announced in February 2011 that these planets were larger than Earth"
+          ]
+        },
+        {
+          "id": "wheel-fail",
+          "type": "anomaly",
+          "date": {
+            "iso": "2013-05",
+            "label": "May 2013"
+          },
+          "title": "A broken wheel",
+          "text": "Kepler lost the second of its four reaction wheels (spinning wheels that aim the telescope). It needed three, so it could no longer stay pointed — ending the original mission.",
+          "details": [
+            [
+              "Wheels working",
+              "2 of 4"
+            ],
+            [
+              "Needed",
+              "3"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "In May 2013, the Kepler spacecraft lost the second of four gyroscope-like reaction wheels",
+            "effectively ending new data collection for the original mission",
+            "The spacecraft required three functioning wheels to position the telescope"
+          ]
+        },
+        {
+          "id": "k2",
+          "type": "milestone",
+          "date": {
+            "iso": null,
+            "label": "After 2013"
+          },
+          "title": "K2: steering with sunlight",
+          "text": "Engineers had a clever idea: use the push of sunlight to keep Kepler steady, like a kayak steering into the current. The new “K2” mission was expected to do 10 campaigns — it did 19!",
+          "details": [
+            [
+              "Campaigns planned",
+              "10"
+            ],
+            [
+              "Campaigns done",
+              "19"
+            ],
+            [
+              "Stars surveyed (total)",
+              "more than 500,000"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "using the pressure of sunlight to maintain its pointing, like a kayak steering into the current",
+            "the Kepler team estimated that the K2 mission could conduct 10 campaigns with the remaining fuel; it reached 19",
+            "bumped Kepler's count of surveyed stars up to more than 500,000"
+          ]
+        },
+        {
+          "id": "retired",
+          "type": "end",
+          "date": {
+            "iso": "2018-10-30",
+            "label": "30 Oct 2018"
+          },
+          "title": "Retired with a full tank of discoveries",
+          "text": "Running low on fuel, Kepler was retired. Its data suggest that 20 to 50% of the stars we can see at night may have small, possibly rocky planets in their habitable zones.",
+          "details": [
+            [
+              "Retired",
+              "30 Oct 2018"
+            ],
+            [
+              "Successor",
+              "TESS (launched April 2018)"
+            ]
+          ],
+          "src": "kepler-k2",
+          "quotes": [
+            "Before retiring the spacecraft on Oct. 30, 2018",
+            "even after initial warnings of low fuel",
+            "20 to 50 percent of the stars visible in the night sky are likely to have small, possibly rocky, planets similar in size to Earth, and located within the habitable zone",
+            "the Transiting Exoplanet Survey Satellite, launched in April 2018"
+          ]
+        }
+      ],
+      "dataNotes": [
+        "Missing in the data: launch site, launch vehicle and where Kepler is now (its orbit/destination). Shown as “Data not available”.",
+        "Kepler drifts on a stylised path in the outer scene; this position is decorative."
+      ]
+    }
+  ]
+}

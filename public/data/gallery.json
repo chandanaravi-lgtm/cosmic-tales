@@ -1,0 +1,501 @@
+{
+ "photos": [
+  {
+   "id": "g1",
+   "name": "Surveyor 3 on the Moon",
+   "group": "Surveyor 3",
+   "local": "images/rovers/surveyor-3/on-moon.webp",
+   "thumb": "images/rovers/surveyor-3/on-moon-thumb.webp",
+   "pack": "apolo 12/Surveyor_3_on_Moon.jpg",
+   "machine": "surveyor-3"
+  },
+  {
+   "id": "g2",
+   "name": "A Surveyor lander on Earth",
+   "group": "Surveyor 3",
+   "local": "images/rovers/surveyor-3/on-earth.webp",
+   "thumb": "images/rovers/surveyor-3/on-earth-thumb.webp",
+   "pack": "apolo 12/images.jfif",
+   "machine": "surveyor-3"
+  },
+  {
+   "id": "g3",
+   "name": "Artwork: astronauts visiting Surveyor 3",
+   "group": "Surveyor 3",
+   "local": "images/rovers/surveyor-3/visit-art.webp",
+   "thumb": "images/rovers/surveyor-3/visit-art-thumb.webp",
+   "pack": "apolo 12/1.jpg",
+   "machine": "surveyor-3"
+  },
+  {
+   "id": "g4",
+   "name": "A Surveyor lander",
+   "group": "Surveyor 3",
+   "local": "images/rovers/surveyor-3/model.webp",
+   "thumb": "images/rovers/surveyor-3/model-thumb.webp",
+   "pack": "apolo 12/Lunar_Lander,_Surveyor_-_DPLA_-_d6accc3d89e8efa6f2e88962941bf43a_(page_6).jpg",
+   "machine": "surveyor-3"
+  },
+  {
+   "id": "g5",
+   "name": "Eagle on the Moon, with Earth in the sky",
+   "group": "Apollo 11 Eagle",
+   "local": "images/rovers/apollo-11-lm/eagle-earth.webp",
+   "thumb": "images/rovers/apollo-11-lm/eagle-earth-thumb.webp",
+   "pack": "11/apollo 11.jfif",
+   "machine": "apollo-11-lm"
+  },
+  {
+   "id": "g6",
+   "name": "An astronaut working beside Eagle",
+   "group": "Apollo 11 Eagle",
+   "local": "images/rovers/apollo-11-lm/beside-eagle.webp",
+   "thumb": "images/rovers/apollo-11-lm/beside-eagle-thumb.webp",
+   "pack": "11/apolo 11 2.webp",
+   "machine": "apollo-11-lm"
+  },
+  {
+   "id": "g7",
+   "name": "Eagle's top half above the Moon, with Earth behind",
+   "group": "Apollo 11 Eagle",
+   "local": "images/rovers/apollo-11-lm/ascent.webp",
+   "thumb": "images/rovers/apollo-11-lm/ascent-thumb.webp",
+   "pack": "11/ii.jpeg",
+   "machine": "apollo-11-lm"
+  },
+  {
+   "id": "g8",
+   "name": "Intrepid on the Moon, with an astronaut nearby",
+   "group": "Apollo 12 Intrepid",
+   "local": "images/rovers/apollo-12-lm/intrepid.webp",
+   "thumb": "images/rovers/apollo-12-lm/intrepid-thumb.webp",
+   "pack": "apolo 12/2",
+   "machine": "apollo-12-lm"
+  },
+  {
+   "id": "g9",
+   "name": "A salute beside Falcon and the Moon buggy",
+   "group": "Apollo 15 Falcon",
+   "local": "images/rovers/apollo-15-lm/salute.webp",
+   "thumb": "images/rovers/apollo-15-lm/salute-thumb.webp",
+   "pack": "apolo 15/WhatsApp Image 2026-11-15 at 12.51.33 PM (1).jpeg",
+   "machine": "apollo-15-lm"
+  },
+  {
+   "id": "g10",
+   "name": "The Moon buggy (Lunar Roving Vehicle)",
+   "group": "Apollo 15 Falcon",
+   "local": "images/rovers/apollo-15-lm/rover.webp",
+   "thumb": "images/rovers/apollo-15-lm/rover-thumb.webp",
+   "pack": "apolo 15/WhatsApp Image 2026-11-15 at 12.51.33 PM.jpeg",
+   "machine": "apollo-15-lm"
+  },
+  {
+   "id": "g11",
+   "name": "The crew with a Moon buggy and lander on Earth",
+   "group": "Apollo 15 Falcon",
+   "local": "images/rovers/apollo-15-lm/crew.webp",
+   "thumb": "images/rovers/apollo-15-lm/crew-thumb.webp",
+   "pack": "apolo 15/WhatsApp Image 2026-11-15 at 12.51.34 PM.jpeg",
+   "machine": "apollo-15-lm"
+  },
+  {
+   "id": "g12",
+   "name": "A Viking lander on Mars",
+   "group": "Viking 1",
+   "local": "images/rovers/viking-1/lander.webp",
+   "thumb": "images/rovers/viking-1/lander-thumb.webp",
+   "pack": "viking 1/images.jfif",
+   "machine": "viking-1"
+  },
+  {
+   "id": "g13",
+   "name": "The Viking spacecraft: orbiter and lander together",
+   "group": "Viking 1",
+   "local": "images/rovers/viking-1/spacecraft.webp",
+   "thumb": "images/rovers/viking-1/spacecraft-thumb.webp",
+   "pack": "viking 1/Viking_spacecraft.jpg",
+   "machine": "viking-1"
+  },
+  {
+   "id": "g14",
+   "name": "Artwork: the Viking orbiter above Mars",
+   "group": "Viking 1",
+   "local": "images/rovers/viking-1/orbiter-art.webp",
+   "thumb": "images/rovers/viking-1/orbiter-art-thumb.webp",
+   "pack": "viking 1/gg.jfif",
+   "machine": "viking-1"
+  },
+  {
+   "id": "g15",
+   "name": "Sojourner, the six-wheeled rover",
+   "group": "Pathfinder & Sojourner",
+   "local": "images/rovers/mars-pathfinder/sojourner.webp",
+   "thumb": "images/rovers/mars-pathfinder/sojourner-thumb.webp",
+   "pack": "mars path finder/images (3).jfif",
+   "machine": "mars-pathfinder"
+  },
+  {
+   "id": "g16",
+   "name": "The Pathfinder lander with its petals open",
+   "group": "Pathfinder & Sojourner",
+   "local": "images/rovers/mars-pathfinder/lander.webp",
+   "thumb": "images/rovers/mars-pathfinder/lander-thumb.webp",
+   "pack": "mars path finder/images.jfif",
+   "machine": "mars-pathfinder"
+  },
+  {
+   "id": "g17",
+   "name": "Artwork: the NEAR spacecraft",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/artwork.webp",
+   "thumb": "images/rovers/near-shoemaker/artwork-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.23.57 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g18",
+   "name": "Lift-off of NEAR's Delta rocket",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/launch.webp",
+   "thumb": "images/rovers/near-shoemaker/launch-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.23.58 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g19",
+   "name": "NEAR in a clean room on Earth",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/clean-room.webp",
+   "thumb": "images/rovers/near-shoemaker/clean-room-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.23.57 PM (1).jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g20",
+   "name": "A small dark asteroid seen against black space",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/mathilde.webp",
+   "thumb": "images/rovers/near-shoemaker/mathilde-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.01 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g21",
+   "name": "Two views of the asteroid Eros",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-two-views.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-two-views-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.17.59 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g22",
+   "name": "The cratered edge of Eros",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-limb.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-limb-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.09 PM (1).jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g23",
+   "name": "A big crater on Eros, up close",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-crater.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-crater-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.17.57 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g24",
+   "name": "Eros's surface in colour",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-colour.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-colour-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.06 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g25",
+   "name": "Map: NEAR's estimated landing spot on Eros",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/impact-site.webp",
+   "thumb": "images/rovers/near-shoemaker/impact-site-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.10 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g26",
+   "name": "A boulder and craters on Eros, very close up",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-boulders.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-boulders-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.09 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g27",
+   "name": "Close-up of Eros's surface",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-surface.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-surface-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.07 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g28",
+   "name": "Dusty ground on Eros",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-dust.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-dust-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.08 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g29",
+   "name": "Craters on Eros, up close",
+   "group": "NEAR Shoemaker",
+   "local": "images/rovers/near-shoemaker/eros-craters.webp",
+   "thumb": "images/rovers/near-shoemaker/eros-craters-thumb.webp",
+   "pack": "near shoo maker/WhatsApp Image 2026-11-15 at 12.18.02 PM.jpeg",
+   "machine": "near-shoemaker"
+  },
+  {
+   "id": "g30",
+   "name": "The Kepler space telescope",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/spacecraft.webp",
+   "thumb": "images/rovers/kepler/spacecraft-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.47 PM.jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g31",
+   "name": "Kepler's camera view: a mosaic of star fields",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/first-view.webp",
+   "thumb": "images/rovers/kepler/first-view-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.51 PM (2).jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g32",
+   "name": "Artwork: planets passing in front of a star",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/transits.webp",
+   "thumb": "images/rovers/kepler/transits-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.50 PM.jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g33",
+   "name": "Artwork: a family of planets around a star",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/planets.webp",
+   "thumb": "images/rovers/kepler/planets-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.48 PM.jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g34",
+   "name": "Artwork: Kepler among the stars",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/in-space.webp",
+   "thumb": "images/rovers/kepler/in-space-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.49 PM (1).jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g35",
+   "name": "Chart: the patches of sky Kepler and K2 watched",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/k2-fields.webp",
+   "thumb": "images/rovers/kepler/k2-fields-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.51 PM.jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g36",
+   "name": "Artwork: Kepler and the K2 sky patches",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/k2-art.webp",
+   "thumb": "images/rovers/kepler/k2-art-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.47 PM (1).jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g37",
+   "name": "Artwork: a planet passing a red star",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/red-star.webp",
+   "thumb": "images/rovers/kepler/red-star-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.49 PM.jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g38",
+   "name": "Artwork: a blue world and its star",
+   "group": "Kepler / K2",
+   "local": "images/rovers/kepler/blue-world.webp",
+   "thumb": "images/rovers/kepler/blue-world-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.52 PM.jpeg",
+   "machine": "kepler"
+  },
+  {
+   "id": "g39",
+   "name": "Poster: the Apollo programme",
+   "group": "More space photos",
+   "local": "images/gallery/11-hh.webp",
+   "thumb": "images/gallery/11-hh-thumb.webp",
+   "pack": "11/hh.webp"
+  },
+  {
+   "id": "g40",
+   "name": "An astronaut beside the Moon buggy",
+   "group": "More space photos",
+   "local": "images/gallery/11-images.webp",
+   "thumb": "images/gallery/11-images-thumb.webp",
+   "pack": "11/images.jfif"
+  },
+  {
+   "id": "g41",
+   "name": "Cutaway drawing of a lunar module",
+   "group": "More space photos",
+   "local": "images/gallery/11-lunar-module.webp",
+   "thumb": "images/gallery/11-lunar-module-thumb.webp",
+   "pack": "11/lunar module.jfif"
+  },
+  {
+   "id": "g42",
+   "name": "An Apollo command module in a museum",
+   "group": "More space photos",
+   "local": "images/gallery/apolo-15-whatsapp-image-2026-11-15-at-12-51-33-pm-2.webp",
+   "thumb": "images/gallery/apolo-15-whatsapp-image-2026-11-15-at-12-51-33-pm-2-thumb.webp",
+   "pack": "apolo 15/WhatsApp Image 2026-11-15 at 12.51.33 PM (2).jpeg"
+  },
+  {
+   "id": "g43",
+   "name": "Inside a spacecraft hatch",
+   "group": "More space photos",
+   "local": "images/gallery/apolo-15-whatsapp-image-2026-11-15-at-12-51-34-pm-1.webp",
+   "thumb": "images/gallery/apolo-15-whatsapp-image-2026-11-15-at-12-51-34-pm-1-thumb.webp",
+   "pack": "apolo 15/WhatsApp Image 2026-11-15 at 12.51.34 PM (1).jpeg"
+  },
+  {
+   "id": "g44",
+   "name": "A streak of light across a starry sky",
+   "group": "More space photos",
+   "local": "images/gallery/kepler-whatsapp-image-2026-11-15-at-12-04-51-pm-1.webp",
+   "thumb": "images/gallery/kepler-whatsapp-image-2026-11-15-at-12-04-51-pm-1-thumb.webp",
+   "pack": "kepler/WhatsApp Image 2026-11-15 at 12.04.51 PM (1).jpeg"
+  },
+  {
+   "id": "g45",
+   "name": "A satellite above Earth",
+   "group": "More space photos",
+   "local": "images/gallery/mars-path-finder-images-1.webp",
+   "thumb": "images/gallery/mars-path-finder-images-1-thumb.webp",
+   "pack": "mars path finder/images (1).jfif"
+  },
+  {
+   "id": "g46",
+   "name": "A lander with round solar panels on Mars",
+   "group": "More space photos",
+   "local": "images/gallery/mars-path-finder-images-2.webp",
+   "thumb": "images/gallery/mars-path-finder-images-2-thumb.webp",
+   "pack": "mars path finder/images (2).jfif"
+  },
+  {
+   "id": "g47",
+   "name": "A probe with long solar panels",
+   "group": "More space photos",
+   "local": "images/gallery/mars-path-finder-images-4.webp",
+   "thumb": "images/gallery/mars-path-finder-images-4-thumb.webp",
+   "pack": "mars path finder/images (4).jfif"
+  },
+  {
+   "id": "g48",
+   "name": "Artwork: two small box-shaped spacecraft",
+   "group": "More space photos",
+   "local": "images/gallery/mars-path-finder-spaceimagesimagesl-2e16d0ba-fill-490x430-c70-format-jpeg-h7ptmxr.webp",
+   "thumb": "images/gallery/mars-path-finder-spaceimagesimagesl-2e16d0ba-fill-490x430-c70-format-jpeg-h7ptmxr-thumb.webp",
+   "pack": "mars path finder/spaceimagesimagesl.2e16d0ba.fill-490x430-c70.format-jpeg_h7pTMXR.jpg"
+  },
+  {
+   "id": "g49",
+   "name": "Artwork: twin spacecraft orbiting the Moon",
+   "group": "More space photos",
+   "local": "images/gallery/s3-1.webp",
+   "thumb": "images/gallery/s3-1-thumb.webp",
+   "pack": "s3/1.jpg"
+  },
+  {
+   "id": "g50",
+   "name": "Artwork: a spacecraft passing Saturn's rings",
+   "group": "More space photos",
+   "local": "images/gallery/s3-2.webp",
+   "thumb": "images/gallery/s3-2-thumb.webp",
+   "pack": "s3/2.jpg"
+  },
+  {
+   "id": "g51",
+   "name": "Concept art: a lander on an icy moon",
+   "group": "More space photos",
+   "local": "images/gallery/s3-3.webp",
+   "thumb": "images/gallery/s3-3-thumb.webp",
+   "pack": "s3/3.jfif"
+  },
+  {
+   "id": "g52",
+   "name": "Artwork: a solar-powered probe at Jupiter",
+   "group": "More space photos",
+   "local": "images/gallery/s3-4.webp",
+   "thumb": "images/gallery/s3-4-thumb.webp",
+   "pack": "s3/4.jpg"
+  },
+  {
+   "id": "g53",
+   "name": "Artwork: a space telescope above Earth",
+   "group": "More space photos",
+   "local": "images/gallery/s3-5.webp",
+   "thumb": "images/gallery/s3-5-thumb.webp",
+   "pack": "s3/5.jpg"
+  },
+  {
+   "id": "g54",
+   "name": "Artwork: a sample-collecting probe with solar panels",
+   "group": "More space photos",
+   "local": "images/gallery/s3-6.webp",
+   "thumb": "images/gallery/s3-6-thumb.webp",
+   "pack": "s3/6.jpg"
+  },
+  {
+   "id": "g55",
+   "name": "A probe with four solar panels",
+   "group": "More space photos",
+   "local": "images/gallery/viking-1-images-1.webp",
+   "thumb": "images/gallery/viking-1-images-1-thumb.webp",
+   "pack": "viking 1/images (1).jfif"
+  },
+  {
+   "id": "g56",
+   "name": "Artwork: a Viking-style lander on Mars",
+   "group": "More space photos",
+   "local": "images/gallery/viking-1-images-2.webp",
+   "thumb": "images/gallery/viking-1-images-2-thumb.webp",
+   "pack": "viking 1/images (2).jfif"
+  },
+  {
+   "id": "g57",
+   "name": "Artwork: a six-wheeled rover on Mars",
+   "group": "More space photos",
+   "local": "images/gallery/viking-1-mars-67522-1920.webp",
+   "thumb": "images/gallery/viking-1-mars-67522-1920-thumb.webp",
+   "pack": "viking 1/mars-67522_1920.jpg"
+  }
+ ],
+ "skippedDuplicates": [
+  "apolo 12/3 (same picture as apolo 12/Surveyor_3_on_Moon.jpg)"
+ ]
+}

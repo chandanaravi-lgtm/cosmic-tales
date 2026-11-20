@@ -1,0 +1,38 @@
+{
+  "$comment": "Voice-over settings for scripts/generate_voice.py. Swap `kokoroVoice` for any Kokoro voice (e.g. am_fenrir, am_onyx, bm_george, af_bella) and re-run `npm run voice`.",
+  "model": {
+    "name": "Kokoro-82M v1.0 (ONNX export)",
+    "onnx": "kokoro-v1.0.onnx",
+    "voices": "voices-v1.0.bin",
+    "downloadBase": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
+  },
+  "lang": "en-us",
+  "mp3Bitrate": "48k",
+  "voices": {
+    "astronaut": {
+      "label": "Astronaut",
+      "description": "Mission-control radio voice",
+      "kokoroVoice": "am_michael",
+      "speed": 0.96,
+      "sentencePause": 0.38,
+      "effect": "radio",
+      "greeting": "Hello, space explorers! This is your astronaut guide, coming to you from mission control.",
+      "signoff": "This is your astronaut guide, signing off. Over and out!"
+    },
+    "storyteller": {
+      "label": "Storyteller",
+      "description": "Warm bedtime-story voice",
+      "kokoroVoice": "af_heart",
+      "speed": 0.9,
+      "sentencePause": 0.55,
+      "effect": "warm",
+      "greeting": "Hello, explorers! Get comfy, because here is a true story from space.",
+      "signoff": "And that is the end of this story. For now."
+    }
+  },
+  "pronounce": {
+    "Mathilde": "Ma-teeld",
+    "Chryse": "Kry-see",
+    "Sagan": "Saygun"
+  }
+}

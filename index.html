@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Fly through the solar system and discover the real NASA machines left on the Moon, Mars and in deep space." />
+    <meta name="theme-color" content="#05060d" />
+    <title>Cosmic Tales</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <!-- Start-up assets: fetch them in parallel with the JS bundle instead of
+         waiting for it to run (keep in sync with config/bodies.js `low` tiers). -->
+    <link rel="preload" href="data/machines.json" as="fetch" crossorigin />
+    <link rel="preload" href="models/moon.glb" as="fetch" crossorigin />
+    <link rel="preload" href="models/mars.glb" as="fetch" crossorigin />
+    <link rel="preload" href="models/earth.glb" as="fetch" crossorigin />
+    <link rel="preload" href="models/sun.glb" as="fetch" crossorigin />
+    <link rel="preload" href="images/planets/moon_1k.webp" as="image" type="image/webp" crossorigin="anonymous" />
+    <link rel="preload" href="images/planets/mars_1k.webp" as="image" type="image/webp" crossorigin="anonymous" />
+    <link rel="preload" href="images/planets/earth_1k.webp" as="image" type="image/webp" crossorigin="anonymous" />
+    <link rel="preload" href="images/planets/sun_1k.webp" as="image" type="image/webp" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- 3D scene canvas + CSS2D label layer are injected into #stage -->
+      <div id="stage"></div>
+      <!-- UI root: every overlay (header, card, timeline, panels) mounts here -->
+      <div id="ui"></div>
+    </div>
+
+    <noscript>Cosmic Tales needs JavaScript and WebGL to show the solar system.</noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

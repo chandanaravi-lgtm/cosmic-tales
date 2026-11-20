@@ -1,0 +1,13 @@
+{
+  "$comment": "\"For more information\" links shown at the end of each timeline. The URL itself is read from the named file in data-raw/links/ (the team's LINKS pack), so that folder stays the single source of truth. To change a link, edit the .txt file (or point to a new one here) and run `npm run data`.",
+  "machines": {
+    "surveyor-3": "S3.txt",
+    "apollo-11-lm": "Apollo 11.txt",
+    "apollo-12-lm": "Apollo 12.txt",
+    "apollo-15-lm": "Apollo 15.txt",
+    "viking-1": "viking 1.txt",
+    "mars-pathfinder": "pathfinder.txt",
+    "near-shoemaker": "nearshoemaker.txt",
+    "kepler": "kepler.txt"
+  }
+}

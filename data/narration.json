@@ -1,0 +1,87 @@
+{
+  "$comment": [
+    "Narration scripts for the timeline voice-over (one entry per timeline event).",
+    "Every line is a spoken retelling of that event's own title/text/details in data/machines.source.json —",
+    "no new facts. Greeting (first event) and sign-off (last event) are added per voice from scripts/voice.config.json.",
+    "Edit text here, then run `npm run voice` — only changed clips are regenerated."
+  ],
+  "machines": {
+    "surveyor-3": {
+      "launch": "Today's story begins on April seventeenth, 1967. At Cape Canaveral, an Atlas Centaur rocket lifted off with a robot lander called Surveyor 3 on top. For the first time, a Surveyor started from a parking orbit around Earth, and then its rocket stage fired it toward the Moon.",
+      "landing": "Three days later, Surveyor 3 came down to the Moon. But shiny rocks confused its landing radar, so the engine did not switch off on time. Boing! The lander bounced up about ten metres, then about three metres, before it finally settled into a soft landing in a place called Oceanus Procellarum.",
+      "digging": "Now for the fun part. Surveyor 3 was the first Surveyor with a scoop! It dug four trenches and pushed on the ground again and again. The answer? Moon soil is a lot like wet sand, strong enough to hold up an Apollo Lunar Module. Along the way, it sent home 6,326 TV pictures.",
+      "last-contact": "On May fourth, 1967, Earth heard from Surveyor 3 for the very last time. The little lander went silent, and stayed right where it was, waiting quietly on the Moon.",
+      "apollo-12-visit": "But this story has a twist! More than three years later, the Apollo 12 astronauts landed about 180 metres away. On their second moonwalk, Charles Conrad Junior and Alan Bean walked over to Surveyor 3, and took parts of it home, including its scoop and its camera.",
+      "parts-studied": "Back on Earth, scientists studied those returned parts. They wanted to learn how nearly two and a half years on the Moon had changed them. Long after it went quiet, Surveyor 3 was still helping us learn."
+    },
+    "apollo-11-lm": {
+      "launch": "On July sixteenth, 1969, a giant Saturn 5 rocket lifted off from Cape Canaveral. Tucked on top was Eagle, the lunar lander of Apollo 11. Fully fuelled, this two-stage lander weighed 15,103 kilograms.",
+      "landing": "July twentieth, 1969. Eagle touched down in the Sea of Tranquility, with Neil Armstrong and Buzz Aldrin on board. Then Armstrong radioed these famous words. Houston, Tranquility Base here. The Eagle has landed.",
+      "first-step": "Neil Armstrong became the first person ever to step onto the Moon. He said: That's one small step for man, one giant leap for mankind. Nineteen minutes later, Buzz Aldrin followed, and called the view magnificent desolation. Together, they collected 21.55 kilograms of rock and soil.",
+      "easep": "The astronauts did not just collect rocks. They set up a solar-powered science station called EASEP. It had a seismometer to feel moonquakes, and a dust detector. Nearby, they placed a laser reflector too.",
+      "liftoff": "After 21 hours and 36 minutes on the Moon, it was time to go. Eagle's top half, the ascent stage, blasted off to rejoin Michael Collins. The bottom half, the descent stage, stayed behind. And it is still there today.",
+      "ascent-fate": "And what about that top half? The empty ascent stage was let go in orbit around the Moon. Nobody knows exactly what happened to it. It is assumed to have crashed into the Moon within one to four months. A real space mystery!",
+      "easep-end": "Back on the surface, the science station worked normally, even though it got 30 degrees Celsius hotter than planned. But near noon on its second lunar day, it stopped accepting commands from Earth. On August twenty-seventh, 1969, the experiment ended."
+    },
+    "apollo-12-lm": {
+      "launch": "On November fourteenth, 1969, a Saturn 5 rocket carried the lunar lander Intrepid toward the Moon. Intrepid was about to become the second crewed vehicle ever to land there.",
+      "landing": "On November nineteenth, Pete Conrad and Alan Bean landed Intrepid within about 180 metres of Surveyor 3, a robot lander that had been waiting there since April 1967. Now that is super accurate parking!",
+      "tv-camera": "Uh oh. While it was being set up, the TV camera was accidentally pointed at the Sun. Its picture tube was damaged, and the camera stopped working. Even astronauts have oops moments.",
+      "alsep-on": "On their first moonwalk, the astronauts switched on a science station called ALSEP. It was powered by a nuclear battery making about 70 watts. Its instruments listened for moonquakes, and measured the solar wind and magnetism.",
+      "surveyor-visit": "On the second moonwalk, they hiked 1.3 kilometres, collecting rocks along the way, and walked right up to Surveyor 3! They brought about ten kilograms of its parts back to Earth to study. In total, they collected 34.35 kilograms of rock and soil.",
+      "moonquake": "After 31 hours on the Moon, the crew flew home in the top half of Intrepid. Then the empty ascent stage was crashed into the Moon on purpose, about 60 kilometres from their seismometer. The result? The first recorded artificial moonquake!",
+      "alsep-off": "Nearly eight years later, on September thirtieth, 1977, the Apollo 12 science station was shut down, together with all the other Apollo science stations on the Moon."
+    },
+    "apollo-15-lm": {
+      "launch": "On July twenty-sixth, 1971, the lunar lander Falcon launched on a Saturn 5 rocket. And it was carrying something brand new: a folded-up Lunar Roving Vehicle. A Moon buggy!",
+      "landing": "On July thirtieth, Falcon landed at the foot of the Apennine mountains, with David Scott and James Irwin on board. They became the seventh and eighth people to walk on the Moon.",
+      "rover": "On the first moonwalk, the crew unloaded the rover and drove it. It was the first time a vehicle like this was used! They drove 10.3 kilometres, to the edge of Hadley Rille, and set up their ALSEP science station.",
+      "heat-flow": "This science station had seven instruments. One of them was brand new: a heat flow experiment, to measure how fast heat escapes from inside the Moon. It was like taking the Moon's temperature!",
+      "feather": "After the last moonwalk, David Scott dropped a hammer and a feather, live on TV. With no air on the Moon, they fell at the same rate! Altogether, the crew drove 27.9 kilometres, and collected 77.31 kilograms of samples.",
+      "liftoff": "Before leaving, the crew placed a plaque and a small figure, honouring the fourteen American and Soviet space explorers who had died. Then, after almost 67 hours on the Moon, Falcon's top half lifted off. The descent stage, the rover, and the science station all stayed behind.",
+      "impact": "The empty ascent stage was released, and about two hours later, it hit the Moon. A crash landing, on purpose!",
+      "alsep-off": "On September thirtieth, 1977, Falcon's science station was shut down, along with all the other Apollo science stations."
+    },
+    "viking-1": {
+      "launch": "This story comes from Mars. Just before launch, the first Viking spacecraft's batteries ran down, so NASA swapped in the second one. On August twentieth, 1975, it flew as Viking 1, on a Titan Three E Centaur rocket.",
+      "orbit": "After three course corrections, on June nineteenth, 1976, Viking 1 went into orbit around Mars. And here is a secret: it was really two machines in one. An orbiter and a lander, riding together.",
+      "new-site": "The orbiter took its first photos of the planned landing site, in the Chryse region. Uh oh. It was rougher than expected! So scientists used the new pictures to pick a safer spot, on the western slopes of Chryse Planitia.",
+      "landing": "July twentieth, 1976. Viking Lander 1 set down safely: the first truly successful landing on Mars! It landed about 28 kilometres from its target, and soon sent home colour photos and a 300 degree panorama. Chilly! Temperatures there went from minus 86 to minus 33 degrees Celsius.",
+      "seismometer": "Not everything worked, though. The lander's seismometer, built to feel marsquakes, did not work.",
+      "soil": "On July twenty-eighth, the robot arm scooped up the first Martian soil, and dropped it into a tiny biology lab. The big question: is anything alive? Some tests gave a weak maybe. But the main test for organic chemicals said no. And there was a surprise: the soil had lots of sulfur.",
+      "orbiter-off": "High above, the orbiter took many sharp photos of Mars and its two moons. After 1,489 orbits, it ran out of the gas it used to point itself. On August seventh, 1980, it was switched off.",
+      "renamed": "Down on the ground, the lander kept sending weather reports, daily and then weekly. In January 1982, it got a new name: the Thomas Mutch Memorial Station, honouring the leader of the Viking imaging team.",
+      "lost": "Then, on November eleventh, 1982, one faulty command sent from Earth cut off communications. Engineers tried to get back in touch, but they never could. The lander is still sitting on Mars."
+    },
+    "mars-pathfinder": {
+      "launch": "On December fourth, 1996, a Delta 2 rocket launched Mars Pathfinder. It carried a lander and a tiny rover, weighing just 10.6 kilograms. This was a test mission, to try out new ways to land and drive on Mars.",
+      "landing": "July fourth, 1997. A parachute slowed Pathfinder down. Then giant airbags wrapped the lander, like bubble wrap. It hit Mars at about 14 metres per second, and bounced about fifteen times, up to fifteen metres high! It was the first airbag landing on Mars.",
+      "rollout": "On sol 2, the second Martian day, the rover Sojourner stood up to its full height of about 30 centimetres, and rolled down the lander's ramp onto Mars. It was named after the civil rights activist Sojourner Truth. And the lander was named the Carl Sagan Memorial Station.",
+      "water": "The landing site, Ares Vallis, is an ancient floodplain. There, rounded pebbles and cobbles hinted at rocks formed by flowing water. Mars may once have been warmer and wetter!",
+      "weather": "Pathfinder also watched the Martian weather. Its sensors caught dust devils swirling by. The floating dust turned out to be magnetic. And thin water ice clouds showed up early in the morning.",
+      "end": "On September twenty-seventh, 1997, Pathfinder sent its last data. In total, it returned 2.3 billion bits of information, including more than 16,500 lander pictures, and 550 rover pictures."
+    },
+    "near-shoemaker": {
+      "launch": "This story takes us into deep space. On February seventeenth, 1996, a Delta rocket launched NEAR. It was the very first mission of NASA's Discovery program: smaller, cheaper science missions. It was also the first spacecraft to run on solar power beyond the orbit of Mars.",
+      "mathilde": "On the way, on June twenty-seventh, 1997, NEAR zoomed past the asteroid 253 Mathilde, for 25 minutes. Mathilde turned out to be covered in craters, and less dense than expected.",
+      "earth-flyby": "In January 1998, NEAR swung past Earth, using our planet's gravity like a slingshot to head toward the asteroid Eros.",
+      "burn-abort": "Then, trouble! On December twentieth, 1998, an engine burn was aborted. NEAR missed the steering it needed to meet Eros. So the team switched to a backup plan.",
+      "eros-flyby": "Just three days later, NEAR flew past Eros, and saw about 60 percent of it. Eros was smaller than expected, with two medium-sized craters, and a long ridge.",
+      "orbit": "About a year late, on February fourteenth, 2000, NEAR finally moved into orbit around Eros. It became the first human-made object ever to orbit an asteroid. A Valentine's Day first!",
+      "renamed": "A month later, NASA gave the spacecraft a new name: NEAR Shoemaker, in honour of the famous geologist Eugene Shoemaker.",
+      "power-surge": "On May thirteenth, 2000, there was a big power surge. Controllers had to turn off the near infrared spectrometer.",
+      "landing": "Now for the boldest move. NEAR was not built to land. But on February twelfth, 2001, it slowly came down, taking 69 close-up photos, and touched Eros at a gentle 6.4 kilometres per hour. It survived, and kept sending data for about two weeks!",
+      "frozen": "In the extreme cold of minus 173 degrees Celsius, NEAR stopped talking. By then, it had sent about ten times more data than planned, including 160,000 pictures. And it found that Eros has no magnetic field.",
+      "retry": "Nearly two years later, on December tenth, 2002, NASA tried to contact NEAR one more time. There was no answer."
+    },
+    "kepler": {
+      "launch": "On March sixth, 2009, the Kepler space telescope launched, carrying the largest digital camera sent into space for observing at that time. Its job: to stare at about 150,000 stars in the constellation Cygnus.",
+      "first-five": "How do you find a planet around a faraway star? Kepler watched for tiny dips in a star's brightness, when a planet passes in front. In its first six weeks, it found five new planets, announced in January 2010.",
+      "kepler-9": "In April 2010, Kepler found a whole family. Kepler 9 became the first confirmed system with more than one planet passing in front of the same star.",
+      "kepler-11": "Then, in February 2011, Kepler found six planets around Kepler 11, a yellow dwarf star about 2,000 light years away. All of them are bigger than Earth.",
+      "wheel-fail": "But in May 2013, trouble. Kepler lost the second of its four reaction wheels, the spinning wheels that aim the telescope. It needed three to stay pointed, so the original mission came to an end.",
+      "k2": "Engineers had a clever idea. They used the push of sunlight to keep Kepler steady, like a kayak steering into the current. The new mission was called K2. It was expected to do ten campaigns. It did nineteen!",
+      "retired": "Running low on fuel, Kepler was retired on October thirtieth, 2018. Its data suggest that 20 to 50 percent of the stars we can see at night may have small, possibly rocky planets in their habitable zones. Imagine that!"
+    }
+  }
+}

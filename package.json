@@ -1,0 +1,36 @@
+{
+  "name": "cosmic-tales",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cosmic Tales - an interactive 3D explorer of NASA hardware left on the Moon, Mars and in deep space.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data": "node scripts/build-data.mjs",
+    "serve": "vite build && vite preview --host ::",
+    "voice": "python3 scripts/generate_voice.py",
+    "textures": "python3 scripts/make_textures.py",
+    "optimize:moon": "gltfpack -i assets-src/moon/moon_full.glb -o public/models/moon.glb -si 0.5 -cc -kv -vtf",
+    "photos": "python3 scripts/import_photos.py",
+    "rag": "python3 scripts/build_rag.py",
+    "test:rag": "node scripts/test-rag.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-devanagari": "^5.3.0",
+    "@fontsource/noto-sans-kannada": "^5.3.0",
+    "@fontsource/noto-sans-tamil": "^5.3.0",
+    "@fontsource/noto-sans-telugu": "^5.3.0",
+    "gsap": "^3.12.5",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "gltfpack": "^0.22.0",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=18.18",
+    "npm": ">=9"
+  }
+}

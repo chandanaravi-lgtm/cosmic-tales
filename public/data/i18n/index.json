@@ -1,0 +1,52 @@
+{
+ "languages": [
+  {
+   "code": "hi",
+   "name": "हिन्दी",
+   "english": "Hindi",
+   "coverage": 0.989
+  },
+  {
+   "code": "kn",
+   "name": "ಕನ್ನಡ",
+   "english": "Kannada",
+   "coverage": 0.992
+  },
+  {
+   "code": "ta",
+   "name": "தமிழ்",
+   "english": "Tamil",
+   "coverage": 0.992
+  },
+  {
+   "code": "te",
+   "name": "తెలుగు",
+   "english": "Telugu",
+   "coverage": 0.989
+  },
+  {
+   "code": "es",
+   "name": "Español",
+   "english": "Spanish",
+   "coverage": 0.987
+  },
+  {
+   "code": "fr",
+   "name": "Français",
+   "english": "French",
+   "coverage": 0.985
+  },
+  {
+   "code": "de",
+   "name": "Deutsch",
+   "english": "German",
+   "coverage": 0.977
+  },
+  {
+   "code": "ja",
+   "name": "日本語",
+   "english": "Japanese",
+   "coverage": 0.996
+  }
+ ]
+}

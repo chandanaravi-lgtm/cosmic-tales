@@ -1,0 +1,516 @@
+{
+ "$comment": [
+  "Photo pack curation (source: the team's photo zip, kept untouched in data-raw/photos/).",
+  "`npm run photos` turns every listed file into small local WebP images; `npm run data` attaches them",
+  "to the machines and to the timeline moments named in `events`. Moments without a photo borrow",
+  "another photo of the same machine (never the one on the neighbouring moment).",
+  "Captions describe what is visible in the picture — they are not used as mission facts.",
+  "Images are listed best-first: the first one is the Cosmic Card photo."
+ ],
+ "machines": {
+  "surveyor-3": {
+   "folder": "apolo 12",
+   "note": "The pack's own `s3` folder shows other missions (see `excluded`), so Surveyor 3 uses the Surveyor pictures from the `apolo 12` folder.",
+   "images": [
+    {
+     "id": "on-moon",
+     "file": "Surveyor_3_on_Moon.jpg",
+     "alt": "Surveyor 3 standing on the grey lunar surface",
+     "caption": "Surveyor 3 on the Moon."
+    },
+    {
+     "id": "on-earth",
+     "file": "images.jfif",
+     "alt": "A Surveyor lander with its solar panel and arm, standing on sandy ground on Earth",
+     "caption": "A Surveyor lander on Earth."
+    },
+    {
+     "id": "visit-art",
+     "file": "1.jpg",
+     "alt": "Black-and-white artwork of two astronauts walking up to Surveyor 3, with a lunar module and Earth behind",
+     "caption": "Artwork: astronauts visiting Surveyor 3."
+    },
+    {
+     "id": "model",
+     "file": "Lunar_Lander,_Surveyor_-_DPLA_-_d6accc3d89e8efa6f2e88962941bf43a_(page_6).jpg",
+     "alt": "A Surveyor lander shown on a black background",
+     "caption": "A Surveyor lander."
+    }
+   ],
+   "events": {
+    "launch": "on-earth",
+    "landing": "on-moon",
+    "digging": "model",
+    "apollo-12-visit": "visit-art",
+    "parts-studied": "on-moon"
+   },
+   "wanted": {
+    "last-contact": "Surveyor 3 standing silent on the lunar surface (any lunar-surface view of the lander)",
+    "parts-studied": "The returned Surveyor 3 camera or scoop being examined in a laboratory on Earth"
+   }
+  },
+  "apollo-11-lm": {
+   "folder": "11",
+   "images": [
+    {
+     "id": "eagle-earth",
+     "file": "apollo 11.jfif",
+     "alt": "The lunar module Eagle on the Moon's surface with Earth in the black sky",
+     "caption": "Eagle on the Moon, with Earth in the sky."
+    },
+    {
+     "id": "beside-eagle",
+     "file": "apolo 11 2.webp",
+     "alt": "An astronaut in a white spacesuit working beside the gold-wrapped lander Eagle",
+     "caption": "An astronaut working beside Eagle."
+    },
+    {
+     "id": "ascent",
+     "file": "ii.jpeg",
+     "alt": "Eagle's top half flying above the grey Moon, with Earth rising over the horizon",
+     "caption": "Eagle's top half above the Moon, with Earth behind."
+    }
+   ],
+   "events": {
+    "landing": "eagle-earth",
+    "first-step": "beside-eagle",
+    "easep": "beside-eagle",
+    "liftoff": "ascent",
+    "ascent-fate": "ascent",
+    "easep-end": "eagle-earth"
+   },
+   "wanted": {
+    "launch": "The Apollo 11 Saturn V rocket lifting off (16 Jul 1969)",
+    "easep": "The EASEP science station (seismometer / laser reflector) set up on the Moon",
+    "ascent-fate": "Eagle's ascent stage in lunar orbit, seen from the command module",
+    "easep-end": "Close-up of the Apollo 11 passive seismometer on the lunar surface"
+   }
+  },
+  "apollo-12-lm": {
+   "folder": "apolo 12",
+   "images": [
+    {
+     "id": "intrepid",
+     "file": "2",
+     "alt": "The lunar module Intrepid on the dark lunar surface with an astronaut standing nearby",
+     "caption": "Intrepid on the Moon, with an astronaut nearby."
+    },
+    {
+     "id": "surveyor",
+     "file": "Surveyor_3_on_Moon.jpg",
+     "alt": "Surveyor 3 standing on the grey lunar surface",
+     "caption": "Surveyor 3, the robot lander next door."
+    },
+    {
+     "id": "visit-art",
+     "file": "1.jpg",
+     "alt": "Black-and-white artwork of two astronauts walking up to Surveyor 3, with a lunar module and Earth behind",
+     "caption": "Artwork: astronauts visiting Surveyor 3."
+    }
+   ],
+   "events": {
+    "landing": "intrepid",
+    "alsep-on": "intrepid",
+    "surveyor-visit": "visit-art",
+    "moonquake": "surveyor"
+   },
+   "wanted": {
+    "launch": "The Apollo 12 Saturn V rocket lifting off (14 Nov 1969)",
+    "tv-camera": "The Apollo 12 TV camera on the lunar surface",
+    "moonquake": "Intrepid's ascent stage in lunar orbit (before it was crashed into the Moon)",
+    "alsep-off": "The Apollo 12 ALSEP science station on the lunar surface",
+    "alsep-on": "The Apollo 12 ALSEP science station being set up"
+   }
+  },
+  "apollo-15-lm": {
+   "folder": "apolo 15",
+   "images": [
+    {
+     "id": "salute",
+     "file": "WhatsApp Image 2026-11-15 at 12.51.33 PM (1).jpeg",
+     "alt": "An astronaut saluting beside the US flag, with the lunar module Falcon and the Moon buggy behind him",
+     "caption": "A salute beside Falcon and the Moon buggy."
+    },
+    {
+     "id": "rover",
+     "file": "WhatsApp Image 2026-11-15 at 12.51.33 PM.jpeg",
+     "alt": "The Lunar Roving Vehicle parked on the Moon with its dish antenna",
+     "caption": "The Moon buggy (Lunar Roving Vehicle)."
+    },
+    {
+     "id": "crew",
+     "file": "WhatsApp Image 2026-11-15 at 12.51.34 PM.jpeg",
+     "alt": "Three astronauts in white spacesuits posing with a lunar rover and lander model",
+     "caption": "The crew with a Moon buggy and lander on Earth."
+    }
+   ],
+   "events": {
+    "launch": "crew",
+    "landing": "salute",
+    "rover": "rover",
+    "feather": "salute",
+    "liftoff": "salute"
+   },
+   "wanted": {
+    "heat-flow": "The Apollo 15 heat-flow experiment / ALSEP drill on the Moon",
+    "feather": "Dave Scott with the hammer and feather (TV still)",
+    "liftoff": "The Fallen Astronaut plaque and figure left at Hadley",
+    "impact": "Falcon's ascent stage lifting off or in lunar orbit",
+    "alsep-off": "The Apollo 15 ALSEP central station on the lunar surface"
+   }
+  },
+  "viking-1": {
+   "folder": "viking 1",
+   "images": [
+    {
+     "id": "lander",
+     "file": "images.jfif",
+     "alt": "A white Viking lander with its dish antenna and robot arm on red Martian ground",
+     "caption": "A Viking lander on Mars."
+    },
+    {
+     "id": "spacecraft",
+     "file": "Viking_spacecraft.jpg",
+     "alt": "The Viking orbiter with the lander's round shell attached, on a black background",
+     "caption": "The Viking spacecraft: orbiter and lander together."
+    },
+    {
+     "id": "orbiter-art",
+     "file": "gg.jfif",
+     "alt": "Artwork of the Viking orbiter in space above Mars, with the lander's heat shield drifting away",
+     "caption": "Artwork: the Viking orbiter above Mars."
+    }
+   ],
+   "events": {
+    "launch": "spacecraft",
+    "orbit": "orbiter-art",
+    "new-site": "orbiter-art",
+    "landing": "lander",
+    "soil": "lander",
+    "orbiter-off": "orbiter-art",
+    "lost": "lander"
+   },
+   "wanted": {
+    "new-site": "Viking orbiter view of the Chryse Planitia landing area",
+    "seismometer": "The Viking lander seismometer (or a lander instrument close-up)",
+    "soil": "The Viking 1 robot arm digging a trench in Martian soil",
+    "orbiter-off": "The Viking orbiter, or one of its photos of Mars or its moons",
+    "renamed": "A Viking 1 lander panorama of Chryse Planitia",
+    "lost": "The Viking 1 lander on Mars (a lander view of its own deck or surroundings)"
+   }
+  },
+  "mars-pathfinder": {
+   "folder": "mars path finder",
+   "images": [
+    {
+     "id": "sojourner",
+     "file": "images (3).jfif",
+     "alt": "The six-wheeled Sojourner rover with its flat solar panel on top",
+     "caption": "Sojourner, the six-wheeled rover."
+    },
+    {
+     "id": "lander",
+     "file": "images.jfif",
+     "alt": "The Pathfinder lander on red Martian ground with its three petals opened out",
+     "caption": "The Pathfinder lander with its petals open."
+    }
+   ],
+   "events": {
+    "launch": "lander",
+    "landing": "lander",
+    "rollout": "sojourner",
+    "water": "lander",
+    "weather": "sojourner",
+    "end": "lander"
+   },
+   "wanted": {
+    "landing": "Pathfinder's airbags (or an airbag drop test)",
+    "water": "Rocks and ancient flood channels at Ares Vallis",
+    "weather": "A Martian dust devil or the Martian sky seen by Pathfinder",
+    "end": "The Pathfinder lander and Sojourner panorama ('Sagan Memorial Station')",
+    "launch": "The Delta II rocket launching Mars Pathfinder (4 Dec 1996)"
+   }
+  },
+  "near-shoemaker": {
+   "folder": "near shoo maker",
+   "images": [
+    {
+     "id": "artwork",
+     "file": "WhatsApp Image 2026-11-15 at 12.23.57 PM.jpeg",
+     "alt": "Artwork of the NEAR spacecraft with four blue solar panels around a dish",
+     "caption": "Artwork: the NEAR spacecraft."
+    },
+    {
+     "id": "launch",
+     "file": "WhatsApp Image 2026-11-15 at 12.23.58 PM.jpeg",
+     "alt": "A Delta rocket lifting off beside a launch tower marked NEAR",
+     "caption": "Lift-off of NEAR's Delta rocket."
+    },
+    {
+     "id": "clean-room",
+     "file": "WhatsApp Image 2026-11-15 at 12.23.57 PM (1).jpeg",
+     "alt": "Engineers in white suits working on the NEAR spacecraft in a clean room",
+     "caption": "NEAR in a clean room on Earth."
+    },
+    {
+     "id": "mathilde",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.01 PM.jpeg",
+     "alt": "A dark, lumpy asteroid against black space",
+     "caption": "A small dark asteroid seen against black space."
+    },
+    {
+     "id": "eros-two-views",
+     "file": "WhatsApp Image 2026-11-15 at 12.17.59 PM.jpeg",
+     "alt": "Two views of the long, peanut-shaped asteroid Eros",
+     "caption": "Two views of the asteroid Eros."
+    },
+    {
+     "id": "eros-limb",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.09 PM (1).jpeg",
+     "alt": "The curved edge of Eros, covered in craters",
+     "caption": "The cratered edge of Eros."
+    },
+    {
+     "id": "eros-crater",
+     "file": "WhatsApp Image 2026-11-15 at 12.17.57 PM.jpeg",
+     "alt": "A close view of a large crater on the edge of Eros",
+     "caption": "A big crater on Eros, up close."
+    },
+    {
+     "id": "eros-colour",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.06 PM.jpeg",
+     "alt": "Three colour views of Eros's dusty, boulder-strewn surface",
+     "caption": "Eros's surface in colour."
+    },
+    {
+     "id": "impact-site",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.10 PM.jpeg",
+     "alt": "A map titled NEAR Estimated Impact Site, with an arrow pointing to the landing spot on Eros",
+     "caption": "Map: NEAR's estimated landing spot on Eros."
+    },
+    {
+     "id": "eros-boulders",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.09 PM.jpeg",
+     "alt": "Very close view of Eros's surface showing a boulder and smooth craters",
+     "caption": "A boulder and craters on Eros, very close up."
+    },
+    {
+     "id": "eros-surface",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.07 PM.jpeg",
+     "alt": "Close-up of Eros's grey surface with craters and dark shadows",
+     "caption": "Close-up of Eros's surface."
+    },
+    {
+     "id": "eros-dust",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.08 PM.jpeg",
+     "alt": "Smooth, dusty ground on Eros with a few rocks",
+     "caption": "Dusty ground on Eros."
+    },
+    {
+     "id": "eros-craters",
+     "file": "WhatsApp Image 2026-11-15 at 12.18.02 PM.jpeg",
+     "alt": "A close view of Eros's grey surface packed with craters",
+     "caption": "Craters on Eros, up close."
+    }
+   ],
+   "events": {
+    "launch": "launch",
+    "mathilde": "mathilde",
+    "earth-flyby": "artwork",
+    "burn-abort": "clean-room",
+    "eros-flyby": "eros-two-views",
+    "orbit": "eros-limb",
+    "renamed": "eros-crater",
+    "power-surge": "eros-colour",
+    "landing": "impact-site",
+    "frozen": "eros-boulders",
+    "retry": "eros-surface"
+   }
+  },
+  "kepler": {
+   "folder": "kepler",
+   "images": [
+    {
+     "id": "spacecraft",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.47 PM.jpeg",
+     "alt": "The Kepler space telescope with its gold-wrapped tube and solar panel",
+     "caption": "The Kepler space telescope."
+    },
+    {
+     "id": "first-view",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.51 PM (2).jpeg",
+     "alt": "A mosaic of dark rectangles full of tiny stars, the view from Kepler's camera",
+     "caption": "Kepler's camera view: a mosaic of star fields."
+    },
+    {
+     "id": "transits",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.50 PM.jpeg",
+     "alt": "Artwork of Kepler with planets passing in front of a bright star",
+     "caption": "Artwork: planets passing in front of a star."
+    },
+    {
+     "id": "planets",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.48 PM.jpeg",
+     "alt": "Artwork of several planets around a bright star, with a big blue planet in front",
+     "caption": "Artwork: a family of planets around a star."
+    },
+    {
+     "id": "in-space",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.49 PM (1).jpeg",
+     "alt": "Artwork of the Kepler telescope floating among the stars",
+     "caption": "Artwork: Kepler among the stars."
+    },
+    {
+     "id": "k2-fields",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.51 PM.jpeg",
+     "alt": "A NASA chart titled Kepler/K2's Fields of View showing many patches of sky",
+     "caption": "Chart: the patches of sky Kepler and K2 watched."
+    },
+    {
+     "id": "k2-art",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.47 PM (1).jpeg",
+     "alt": "Artwork of Kepler with the Milky Way and a ring of sky patches behind it",
+     "caption": "Artwork: Kepler and the K2 sky patches."
+    },
+    {
+     "id": "red-star",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.49 PM.jpeg",
+     "alt": "Artwork of a small planet in front of a glowing red star",
+     "caption": "Artwork: a planet passing a red star."
+    },
+    {
+     "id": "blue-world",
+     "file": "WhatsApp Image 2026-11-15 at 12.04.52 PM.jpeg",
+     "alt": "Artwork of a blue planet with a distant star and small planets",
+     "caption": "Artwork: a blue world and its star."
+    }
+   ],
+   "events": {
+    "launch": "spacecraft",
+    "first-five": "first-view",
+    "kepler-9": "transits",
+    "kepler-11": "planets",
+    "wheel-fail": "in-space",
+    "k2": "k2-fields",
+    "retired": "k2-art"
+   }
+  }
+ },
+ "excluded": [
+  {
+   "folder": "s3",
+   "file": "1.jpg, 2.jpg, 3.jfif, 4.jpg, 5.jpg, 6.jpg",
+   "reason": "Not Surveyor 3: they appear to show other missions (twin spacecraft at the Moon, a Saturn orbiter, a Europa lander concept, a Jupiter probe, a telescope over Earth, a sample-return probe)."
+  },
+  {
+   "folder": "apolo 12",
+   "file": "3",
+   "reason": "Same photo as Surveyor_3_on_Moon.jpg (smaller crop)."
+  },
+  {
+   "folder": "11",
+   "file": "hh.webp",
+   "reason": "Tall Apollo-programme poster: far too tall for the photo frame and unreadable when shrunk."
+  },
+  {
+   "folder": "11",
+   "file": "images.jfif",
+   "reason": "Shows the Moon buggy, which (per the data) first flew on Apollo 15 — not Apollo 11."
+  },
+  {
+   "folder": "11",
+   "file": "lunar module.jfif",
+   "reason": "Carries a third-party (Science Photo Library) watermark."
+  },
+  {
+   "folder": "apolo 15",
+   "file": "WhatsApp Image 2026-11-15 at 12.51.33 PM (2).jpeg",
+   "reason": "Shows a command module in a museum, not the lunar module Falcon."
+  },
+  {
+   "folder": "apolo 15",
+   "file": "WhatsApp Image 2026-11-15 at 12.51.34 PM (1).jpeg",
+   "reason": "Cockpit/hatch close-up that cannot be identified as Apollo 15."
+  },
+  {
+   "folder": "viking 1",
+   "file": "images (1).jfif",
+   "reason": "Appears to be a Mariner probe, not Viking."
+  },
+  {
+   "folder": "viking 1",
+   "file": "images (2).jfif",
+   "reason": "Carries a third-party (Interstellar) watermark."
+  },
+  {
+   "folder": "viking 1",
+   "file": "mars-67522_1920.jpg",
+   "reason": "Shows a later six-wheeled Mars rover, not Viking 1."
+  },
+  {
+   "folder": "mars path finder",
+   "file": "images (1).jfif",
+   "reason": "Shows a satellite above Earth, not Pathfinder."
+  },
+  {
+   "folder": "mars path finder",
+   "file": "images (2).jfif",
+   "reason": "Appears to be the InSight lander, not Pathfinder."
+  },
+  {
+   "folder": "mars path finder",
+   "file": "images (4).jfif",
+   "reason": "Appears to be a Mariner probe, not Pathfinder."
+  },
+  {
+   "folder": "mars path finder",
+   "file": "spaceimagesimagesl.2e16d0ba.fill-490x430-c70.format-jpeg_h7pTMXR.jpg",
+   "reason": "Shows small cube-shaped spacecraft, not Pathfinder."
+  },
+  {
+   "folder": "kepler",
+   "file": "WhatsApp Image 2026-11-15 at 12.04.51 PM (1).jpeg",
+   "reason": "Unclear star-streak image that cannot be identified."
+  }
+ ],
+ "galleryNames": {
+  "11/hh.webp": "Poster: the Apollo programme",
+  "11/images.jfif": "An astronaut beside the Moon buggy",
+  "11/lunar module.jfif": "Cutaway drawing of a lunar module",
+  "apolo 15/WhatsApp Image 2026-11-15 at 12.51.33 PM (2).jpeg": "An Apollo command module in a museum",
+  "apolo 15/WhatsApp Image 2026-11-15 at 12.51.34 PM (1).jpeg": "Inside a spacecraft hatch",
+  "kepler/WhatsApp Image 2026-11-15 at 12.04.51 PM (1).jpeg": "A streak of light across a starry sky",
+  "mars path finder/images (1).jfif": "A satellite above Earth",
+  "mars path finder/images (2).jfif": "A lander with round solar panels on Mars",
+  "mars path finder/images (4).jfif": "A probe with long solar panels",
+  "mars path finder/spaceimagesimagesl.2e16d0ba.fill-490x430-c70.format-jpeg_h7pTMXR.jpg": "Artwork: two small box-shaped spacecraft",
+  "s3/1.jpg": "Artwork: twin spacecraft orbiting the Moon",
+  "s3/2.jpg": "Artwork: a spacecraft passing Saturn's rings",
+  "s3/3.jfif": "Concept art: a lander on an icy moon",
+  "s3/4.jpg": "Artwork: a solar-powered probe at Jupiter",
+  "s3/5.jpg": "Artwork: a space telescope above Earth",
+  "s3/6.jpg": "Artwork: a sample-collecting probe with solar panels",
+  "viking 1/images (1).jfif": "A probe with four solar panels",
+  "viking 1/images (2).jfif": "Artwork: a Viking-style lander on Mars",
+  "viking 1/mars-67522_1920.jpg": "Artwork: a six-wheeled rover on Mars"
+ },
+ "relatedFill": {
+  "$comment": "A timeline moment with no photo of its own borrows a RELATED photo of the same world (Moon / Mars) from the gallery, never one its timeline already shows; captioned 'Related photo'. Listed by pack file, best first; '*moon' / '*mars' = then any other machine's photo of that world. A real moment photo (data-raw/photos-new/) always replaces it.",
+  "moon": [
+   "11/images.jfif",
+   "11/lunar module.jfif",
+   "11/hh.webp",
+   "apolo 15/WhatsApp Image 2026-11-15 at 12.51.33 PM (2).jpeg",
+   "apolo 15/WhatsApp Image 2026-11-15 at 12.51.34 PM (1).jpeg",
+   "s3/1.jpg",
+   "*moon"
+  ],
+  "mars": [
+   "viking 1/images (2).jfif",
+   "mars path finder/images (2).jfif",
+   "viking 1/mars-67522_1920.jpg",
+   "viking 1/images (1).jfif",
+   "*mars"
+  ]
+ }
+}

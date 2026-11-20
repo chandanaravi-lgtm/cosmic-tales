@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "src": "https://nssdc.gsfc.nasa.gov/thumbnail/spacecraft/apollo_lm_diagram.gif",
+      "alt": "Diagram of Apollo 11 Lunar Module"
+    },
+    {
+      "src": "https://nssdc.gsfc.nasa.gov/thumbnail/spacecraft/apollo_15_lm.gif",
+      "alt": "Image of the Apollo 15 Lunar Module /ALSEP spacecraft."
+    }
+  ],
+  "imageLinks": [
+    {
+      "href": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+      "text": ""
+    },
+    {
+      "href": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_15_lm.jpg",
+      "text": ""
+    }
+  ]
+}

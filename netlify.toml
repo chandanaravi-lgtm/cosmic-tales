@@ -1,0 +1,7 @@
+# Netlify settings (used automatically when you deploy from GitHub)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"

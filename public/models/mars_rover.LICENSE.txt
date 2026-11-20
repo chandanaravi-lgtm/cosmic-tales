@@ -1,0 +1,11 @@
+Model Information:
+* title:	High-Detail Mars Rover 3D Model
+* source:	https://sketchfab.com/3d-models/high-detail-mars-rover-3d-model-b35a66f99bbe486a86107610221e7e1b
+* author:	shriyans716 (https://sketchfab.com/shriyans716)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "High-Detail Mars Rover 3D Model" (https://sketchfab.com/3d-models/high-detail-mars-rover-3d-model-b35a66f99bbe486a86107610221e7e1b) by shriyans716 (https://sketchfab.com/shriyans716) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
